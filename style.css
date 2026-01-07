@@ -1038,7 +1038,7 @@ footer {
 .contact-page {
     padding: 100px 20px 60px; /* فاصله از هدر و پایین */
     text-align: center;
-    background:#E7EDFD;
+    background: linear-gradient(135deg, #f1f5fb 0%, #e0e7ff 100%);
     margin-top: 130px;
 }
 
@@ -1133,6 +1133,7 @@ footer {
     }
     .text-contact h1{
       font-size: 38px;
+       margin-top: -40px;
     }
     .text-contact h4{
       font-size: 15px;
