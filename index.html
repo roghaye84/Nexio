@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhisperNet – Premium Web Components</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-M9M5E7vOvmJ6eJ7tVraXIiQunlslqY5T2r8j04YfGLwRoTSesFiNUFDXL9uBeb5GsyhQOdE31x4n4t6epx3T4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="contianer">
+  <nav>
+  <!-- لوگو -->
+  <div class="logo">Nexio</div>
+
+  <!-- آیکون منو موبایل -->
+  <span class="menu-toggle material-symbols-outlined">
+    <span class="icon-text">menu</span>
+  </span>
+
+  <!-- منوی دسکتاپ -->
+  <ul class="main-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <!-- منوی کناری موبایل -->
+  <ul class="sidebar">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <!-- Hero Section -->
+    <div class="the-homepage">
+      <div class="text-header">
+        <h1 class="text">Launch Your Ideas<br />Build Smarter</h1>
+        <h5 class="under-text">
+          Access pre-built login pages, buttons, templates, and modules designed to help you launch faster and sell smarter.
+        </h5>
+        <button class="btn-view" onclick="window.location.href='products.html'">
+          View Products <span class="material-symbols-outlined">arrow_forward</span>
+        </button>
+      </div>
+      <div class="picturer">
+        <img src="result_692c454320b89.png" alt="Dashboard Preview" />
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="feature-card">
+        <div class="icon"><i class="fa-solid fa-window-maximize"></i></div>
+        <h3>Templates</h3>
+        <p>Pre-designed website templates for any use-case.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fa-solid fa-window-restore"></i></div>
+        <h3>Simple Widgets</h3>
+        <p>Standalone UI components ready to drop in.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon"><i class="fa-solid fa-box-archive"></i></div>
+        <h3>Mixed Packs</h3>
+        <p>Full bundles with templates, widgets & scripts.</p>
+      </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="offer-section">
+      <h2>What We Offer</h2>
+      <div class="offer-cards">
+        <div class="offer-card">
+          <div class="icon"><i class="fa-solid fa-gear"></i></div>
+          <h3>Customization</h3>
+          <p>Easily customizable to fit your brand and needs.</p>
+        </div>
+        <div class="offer-card">
+          <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Efficiency</h3>
+          <p>Save hours of development with ready-made tools.</p>
+        </div>
+        <div class="offer-card">
+          <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+          <h3>Support</h3>
+          <p>Dedicated support for all our premium products.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Section (اضافه کردم بالای محصولات) -->
+    <section class="category-section">
+      <h2>Categories</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <div class="category-icon" href="products.html"><i class="fa-solid fa-code"></i></div>
+          <h3>Web Templates</h3>
+        </div>
+        <div class="category-card">
+          <div class="category-icon" href="products.html"><i class="fa-solid fa-mobile-alt"></i></div>
+          <h3>Mobile Components</h3>
+        </div>
+        <div class="category-card">
+          <div class="category-icon" href="products.html"><i class="fa-solid fa-palette"></i></div>
+          <h3>UI Kits</h3>
+        </div>
+        <div class="category-card">
+          <div class="category-icon" id="products.html"><i class="fa-solid fa-cogs"></i></div>
+          <h3>Scripts & Tools</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products-section">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image"><img src="cool landing-page.png" alt="Portfolio Template" /></div>
+          <h3>Dark Portfolio</h3>
+          <p>Sleek dark-mode portfolio for your projects.</p>
+          <div class="product-buttons">
+            <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Dark-portfolio'">Read More</button>
+            <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Dark-portfolio'">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image"><img src="fully contact us.png" alt="contact page" /></div>
+          <h3>Full Contact page</h3>
+          <p>A full-featured contact page for your project.</p>
+          <div class="product-buttons">
+            <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Full-Contact-page'">Read More</button>
+            <button class="btn btn-primary"onclick="window.location.href='buy.html?id=Full-Contact-page'">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image"><img src="Simple prduct card.png" alt="product card"/></div>
+          <h3>Simple Product card</h3>
+          <p>A clean simple product card for any used.</p>
+          <div class="product-buttons">
+            <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Simple-Product-card'">Read More</button>
+            <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Simple-Product-card'">Buy Now</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image"><img src="fourth.png" alt="Login-SignUp Template" /></div>
+          <h3>Login/Sign Up animation</h3>
+          <p>Responsive login/sign up page ready to use.</p>
+          <div class="product-buttons">
+            <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Login/Sign Up-animation'">Read More</button>
+            <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Login/Sign Up-animation'">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--free pack-->
+    <!-- Free Pack Section -->
+<section class="free-pack-section">
+  <div class="free-pack-wrapper">
+    <h2>Get a Free Starter Pack!</h2>
+    <p>Try our premium components and templates for free. See how our designs can boost your projects instantly.</p>
+    <button class="btn-free-pack" onclick="window.location.href='buy.html?id=Free-pack'">
+      Download Free Pack
+    </button>
+  </div>
+</section>
+
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fa-solid fa-box"></i></div>
+        <div class="stat-number">50+</div>
+        <div class="stat-label">Products</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fa-solid fa-download"></i></div>
+        <div class="stat-number">1.6k</div>
+        <div class="stat-label">Downloads</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fa-solid fa-user"></i></div>
+        <div class="stat-number">2k+</div>
+        <div class="stat-label">Customers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+        <div class="stat-number">4.7</div>
+        <div class="stat-label">Rating</div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+      <h2>Looking to upgrade your workflow?</h2>
+      <p>Discover high-quality template and components built to Save your time.</p>
+      <button class="btn-cta" onclick="window.location.href='products.html'">Explore All Products</a></button>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+  <div class="footer-container">
+    <!-- شبکه‌های اجتماعی -->
+    <div class="social-icons">
+      <a href="mailto:sales.nexio@gmail.com"  class="sci"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://t.me/Nexio_co" target="_blank" class="sci"><i class="fa-brands fa-telegram"></i></a>
+      <a href="https://www.instagram.com/nexio_co?igsh=dnZqcnVscWUxY3Zo" target="_blank" class="sci"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <!-- لینک‌های حقوقی -->
+    <div class="footer-links">
+      <a href="license.html">License</a> |
+      <a href="Refund Policy.html">Refund Policy</a> |
+      <a href="Terms of Service.html">Terms of Service</a>
+    </div>
+
+    <!-- متن کپی‌رایت -->
+    <div class="footer-text">
+      © Nexio - All rights reserved
+    </div>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
