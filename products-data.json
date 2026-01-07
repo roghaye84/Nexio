@@ -1,0 +1,975 @@
+{
+  "products": [
+    {
+      "id": "landing-page",
+      "name": "Landing page",
+      "tagline": "Sleek, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$7",
+      "mainImage": "second.png",
+      "testimonials": [
+        "second.png",
+        "third.png",
+        "fourth.png",
+        "first.png",
+        "second.png"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A responsive and modern landing page kit built for SASS products, and agencies. Features a dark theme, animated sections, pre-built components.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase, and Coming Soon Page",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Dark-portfolio",
+      "name": "Dark Portfolio",
+      "tagline": "Sleek, built for designer and developer",
+      "description": "Modern mobile interface design.fgfgfgfgf",
+      "price": "$7",
+      "mainImage": "cool landing-page.png",
+      "testimonials": [
+        "cool landing-page.png",
+        "dark ladding page mobile.png",
+        "dark landing pag screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Dark them with red accents and lightweight & fast loading and easy to customize adn edit.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Light portfolio",
+      "name": "Light Portfolio",
+      "tagline": "Soft,clean & charming-perfect for creatives with love pastel vibes ",
+      "description": "Modern mobile interface design.fgfgfgfgf",
+      "price": "$7",
+      "mainImage": "cute-landing-page.png",
+      "testimonials": [
+        "cute-landing-page.png",
+        "cute ladning page mobile.png",
+        "cute ladnding page screen.jpeg"
+
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "🧸 Pastel Color Palette",
+        "♥ Fully Editable",
+        "💌 Cute animation "
+      ],
+      "highlights": "A gentel mimnimalist ladning page for designer  .",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Subscription-Plan-page",
+      "name": "Subscription Plan page",
+      "tagline": "Modern mobile interface design",
+      "description": "Modern mobile interface design.",
+      "price": "$8",
+      "mainImage": "subscription page.png",
+      "testimonials": [
+        "subscription page.png",
+        "subscription page mobile.png",
+        "subscription page screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Clean, modern design",
+        "✏️ Fully Editable",
+        "📱Fully responsive on all devices"
+      ],
+      "highlights": "A responsive subscription page showcasing three pricing plans clearly.",
+      "useCases": "Perfect for SaaS websites, apps, or membership services",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "About-us-page",
+      "name": "About us page",
+      "tagline": "Sleek, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$7",
+      "mainImage": "about us page.png",
+      "testimonials": [
+        "about us page.png",
+        "about us mobile.png",
+        "about us screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Sections for team, mission, and story",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A responsive About page to present your team, story, and mission clearly.",
+      "useCases": "Perfect for showcasing team, company story, or personal info",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Contact-page",
+      "name": "Contact  page",
+      "tagline": "Sleek, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$4",
+      "mainImage": "contact us page.png",
+      "testimonials": [
+        "contact us page.png",
+        "simple contact mobile.png",
+        "simple contact screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Minimal and elegant design",
+        "✏️ Easy to integrate in any website",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A clean and stylish contact page with a simple contact form.",
+      "useCases": "Ideal for personal websites, portfolios, or small apps",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Login/Sign Up",
+      "name": "Login/Sign Up",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$5",
+      "mainImage": "login-simple.png",
+      "testimonials": [
+        "login-simple.png",
+        "login-simple mobile.png",
+        "login-simple screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Simple and clean design",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A sleek professional login/sign up page template designed for modern web applications.",
+      "useCases": "Perfect for portfolios,small apps, or personal projects",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3,",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+    {"id": "Login/Sign Up-animation",
+      "name": "Login/Sign Up animation",
+      "tagline": "Smooth and modern animations for login interactions",
+      "description": "Modern mobile interface design.",
+      "price": "$9",
+      "mainImage": "fourth.png",
+      "testimonials": [
+        "fourth.png",
+        "login animation mobile.png",
+        "login animation screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Clean and visually appealing UI",
+        "✏️ Fully Editable",
+        "📱 Easy to integrate with any web or mobile app"
+      ],
+      "highlights": "A visually stunning animated login page with smooth interactions and responsive design.",
+      "useCases": "Perfect for apps and websites needing a premium login experience",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3,Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+    {
+      "id": "Full-Contact-page",
+      "name": "Full Contact page",
+      "tagline": "Includes address, phone, and email",
+      "description": "Clean, modern, and responsive layout.",
+      "price": "$5",
+      "mainImage": "fully contact us.png",
+      "testimonials": [
+        "fully contact us.png",
+        "fully content mobile.png",
+        "fully content screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Minimal and elegant design",
+        "✏️ Easy to integrate in any website",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A full-featured contact page displaying address and contact details",
+      "useCases": "Helps users find detailed contact information easily",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "Searching-box1",
+      "name": "Hover expand search box",
+      "tagline": "A search box that exoands when you hoverd",
+      "description": "Modern mobile interface design.",
+      "price": "$2",
+      "mainImage": "seachbox1.png",
+      "testimonials": [
+        "seachbox1.png",
+        "seach box1 mobile.png",
+        "search box1 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Expand on hover for easy access",
+        "✏️ Sleek and modern design",
+        "📱  Fully responsive"
+      ],
+      "highlights": "A Responsive search box thats expand when you hoverd for quick searches.",
+      "useCases": "perfect for website where you want a compact search bar that expands on hover",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Searching-box2",
+      "name": "Click expand search box",
+      "tagline": "Stylish search box that grows on click",
+      "description": "Stylish search box that grows on click.",
+      "price": "$2",
+      "mainImage": "searchbox2.png",
+      "testimonials": [
+        "searchbox2.png",
+        "seach box2 mobile.png",
+        "seachbox2 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Smooth animation for interaction",
+        "✏️ Fully Editable",
+        "📱 Mobile friendly and resoinsive"
+      ],
+      "highlights": "Stylish search box that grows on click making searching more intuitive.",
+      "useCases": "Ideal for website where useres click to focus and type their queries",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Searching-box3",
+      "name": "Simple stylish search box",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$2",
+      "mainImage": "search box3.png",
+      "testimonials": [
+        "search box3.png",
+        "searchbox3 mobile.png",
+        "searchbox3 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Minimal clean design",
+        "💝User friendly",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A beautiful, simple search box ready to enhance your website.",
+      "useCases": "suitable for any project needing a simple and elgant search input",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "Simple-Product-card",
+      "name": "Simple Product card",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "A clean simple product card for any used.",
+      "price": "$7",
+      "mainImage": "Simple prduct card.png",
+      "testimonials": [
+        "Simple prduct card.png",
+        "Simple Product card mobile.png",
+        "Simple Product card screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Minimal clean design",
+        "💝User friendly",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A clean simple product card for any used case.",
+      "useCases": "Suitable for storses, portfolio, and landing pages / can use for any product catagory",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "Discount-Product-card",
+      "name": "Discount Product card",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Responsive product card wirh discounting.",
+      "price": "$8",
+      "mainImage": "discount card.png",
+      "testimonials": [
+        "discount card.png",
+        "Discount Product card mobile.png",
+        "Discount Product card screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Minimal clean design",
+        "💝User friendly",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Responsive product card wirh discount and special offers.",
+      "useCases": "perfect for e-commerce website / ideal for sales and promotions",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "Modern-Product-card",
+      "name": "Modern Product card",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "A modern and stylish product card.",
+      "price": "$9",
+      "mainImage": "modern product card.png",
+      "testimonials": [
+        "modern product card.png",
+        "Modern Product card mobile.png",
+        "Modern Product card screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Modern and stylish UI",
+        "💝Easy to customize",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A modern and stylish product card with stylish and clean design.",
+      "useCases": "Ideal for modern websites and creative projects and great for featural products",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "interactive-pricing-card",
+      "name": "interactive pricing card",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "A responsive interactive pricing card.",
+      "price": "$5",
+      "mainImage": "interactive pricing card.png",
+      "testimonials": [
+        "interactive pricing card.png",
+        "interactive pricing card mobile.png",
+        "interactive pricing card screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Smooth interactions",
+        "💝Dispaly pricing and features clearly",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A responsive interactive pricing card that expand to show subscription plans.",
+      "useCases": "perfect for SasS and subscription basesd webstie",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies":"HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+     {
+      "id": "simple-buttom-navigation",
+      "name": "simple buttom navigation",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "A simple bottom navigation.",
+      "price": "$3",
+      "mainImage": "simple buttom navigation.png",
+      "testimonials": [
+        "simple buttom navigation.png",
+        "simple button navigation mobile.png",
+        "simple navigation screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡clean and minimal mobile menu",
+        "💝Easy to customize",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A simple bottom navigation menu for mobile devices.",
+      "useCases": "ideal for mobile wesbites and simple apss / suitable for basic navigation needs",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+
+    {
+      "id": "modern-buttom-navigation",
+      "name": "modern buttom navigation",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "A modern bottom navigation.",
+      "price": "$4",
+      "mainImage": "modern buttom navigation..png",
+      "testimonials": [
+        "modern buttom navigation..png",
+        "modern mobile mune mobile.png",
+        "modern mobile mnue screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Modern and attractive design",
+        "💝Enhance users experience",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A modern bottom navigation with smooth interations.",
+      "useCases": "perfect for modern mobile apps / ideal for stylish web interfaces",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Floating-button1",
+      "name": "Header menue floating button",
+      "tagline": "Floating button to reveal menus",
+      "description": "Modern mobile interface design.",
+      "price": "$2.5",
+      "mainImage": "floating-button1.png",
+      "testimonials": [
+        "floating-button1.png",
+        "floating button1 mobile.png",
+        "floating button1 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ open click to reveal menum option",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A clickable floating button to reveal menus, ideal for header or any layout.",
+      "useCases": "Perfect for websites needing a compact floating menue for navigation",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Floating-button2",
+      "name": "Social share floating button",
+      "tagline": "floating buttons for sharing content",
+      "description": "Modern mobile interface design.",
+      "price": "$4",
+      "mainImage": "flotaing button2.png",
+      "testimonials": [
+        "flotaing button2.png",
+        "floating button2 mobile.png",
+        "floating button2 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡open on click for sharing social apps",
+        "✏️ easily customized text/icons",
+        "📱lightweight Responsive"
+      ],
+      "highlights": "A floating button for sharing content across social platforms.",
+      "useCases": "ideal for belogs,articlas or apps to let users share content quickly",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Floating-button3",
+      "name": "Document action floating button",
+      "tagline": "floating buttons for creat PDF action",
+      "description": "Modern mobile interface design.",
+      "price": "$5",
+      "mainImage": "floating btn3.png",
+      "testimonials": [
+        "floating btn3.png",
+        "floating button3 mobile.png",
+        "floating button3  screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡open to click to creat pdf",
+        "✏️ Fully Editable",
+        "📱 easy to integrate responsive"
+      ],
+      "highlights": "a floating buttons to creat PDFs or handel document actions efficiently ",
+      "useCases": "perfect for apps or website where useres manage or export documents.",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Floating-buttons-pack",
+      "name": "Floating buttons pack",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$7",
+      "mainImage": "third.png",
+      "testimonials": [
+        "second.png",
+        "third.png",
+        "fourth.png",
+        "first.png",
+        "second.png"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ With Darkmode toggle",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A sleek professional login/sign up page template designed for modern web applications.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase, and Coming Soon Page",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "search-boxex-pack",
+      "name": "search boxex pack",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$3",
+      "mainImage": "third.png",
+      "testimonials": [
+        "second.png",
+        "third.png",
+        "fourth.png",
+        "first.png",
+        "second.png"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ With Darkmode toggle",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A sleek professional login/sign up page template designed for modern web applications.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase, and Coming Soon Page",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript, Tailwind CSS",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "loading-pack",
+      "name": "Floating buttons pack",
+      "tagline": "Clean, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$7",
+      "mainImage": "third.png",
+      "testimonials": [
+        "second.png",
+        "third.png",
+        "fourth.png",
+        "first.png",
+        "second.png"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ With Darkmode toggle",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A sleek professional login/sign up page template designed for modern web applications.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase, and Coming Soon Page",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript, Tailwind CSS",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "slider",
+      "name": "Advance Responsive Slider",
+      "tagline": "Powerful responsive slider animation",
+      "description": "Modern mobile interface design.",
+      "price": "$8",
+      "mainImage": "third.png",
+      "testimonials": [
+        "third.png",
+        "slider mobile.png",
+        "slider screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Modern and smooth animation",
+        "✏️lightweight and performance-friendly",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A powerful responsive slider with smooth animations for modern wesbite.",
+      "useCases": "perfect for landing pages and portfolios and websites",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "loading-animation1",
+      "name": "Circle loader page",
+      "tagline": "circle loading page with rotaing circle",
+      "description": "Modern mobile interface design.",
+      "price": "$2",
+      "mainImage": "loding1.png",
+      "testimonials": [
+        "loding1.png",
+        "loading1 mobile.png",
+        "loading1 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡smooth and modern loading effect",
+        "✏️ clean blue background",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Aclean loading page with roating circle animation.",
+      "useCases": "Idea for web apps and dashboards and perfect while loading data",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "loading-animation2",
+      "name": "Gradient loading page",
+      "tagline": "Modern loading page with Gradient",
+      "description": "Modern mobile interface design.",
+      "price": "$2",
+      "mainImage": "loading2.png",
+      "testimonials": [
+        "loading2.png",
+        "loding2 mobile.png",
+        "loding2 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Gradient design",
+        "✏️ Centerd loding text",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A modern loading page with gradient and loading page.",
+      "useCases": "Great for modern websites and landing pages",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "loading-animation3",
+      "name": "Progress bar loading page",
+      "tagline": "minimal loading page with animation",
+      "description": "Modern mobile interface design.",
+      "price": "$2",
+      "mainImage": "loading3.png",
+      "testimonials": [
+        "loading3.png",
+        "loading3 mobile.png",
+        "loading3 screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ smooth fill animation",
+        "✏️ clean and minimal UI",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "minimal loading page with animation progress bar.",
+      "useCases": "Perfect for file uplods or page loading states ",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Delete-notification",
+      "name": "Delete notification",
+      "tagline": "Clean and responsive ",
+      "description": "Showing the delete notification.",
+      "price": "$5",
+      "mainImage": "delete noti.png",
+      "testimonials": [
+        "delete noti.png",
+        "delete noti mobile.png",
+        "delete noti screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Clean delete confirmation message",
+        "✏️ smooth appreance animation",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Showing the delete notification after deleting an items.",
+      "useCases": "Used when deleting otems,posts or data ",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Empty-notification",
+      "name": "Empty notification",
+      "tagline": "Clean and rich features",
+      "description": "Showing the empty notification.",
+      "price": "$5",
+      "mainImage": "empty noti.png",
+      "testimonials": [
+        "empty noti.png",
+        "empty notic mobile.png",
+        "empty notic screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Clean empty confirmation message",
+        "✏️smooth appreance animation",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Showing the empty notification shown when there is no contents to display.",
+      "useCases": "Used when there is no data or notifications ",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Error-notification",
+      "name": "Error notification",
+      "tagline": "Clean and responsive ",
+      "description": "Showing the error notification.",
+      "price": "$5",
+      "mainImage": "error noti.png",
+      "testimonials": [
+        "error noti.png",
+        "error noti mobile.png",
+        "error noti screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Clean error confirmation message",
+        "✏️smooth appreance animation",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Showing the error notification when an error occurs.",
+      "useCases": "Used when actions fail or errors occur",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Info-notification",
+      "name": "Info notification",
+      "tagline": "Clean and rich features",
+      "description": "Showing the info notification.",
+      "price": "$5",
+      "mainImage": "info noti.png",
+      "testimonials": [
+        "info noti.png",
+        "info noti mobile.png",
+        "info notic screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡Clean info confirmation message",
+        "✏️smooth appreance animation",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Showing the info notification display helpful information.",
+      "useCases": "used ti show tips, upadates or systems",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Success-notification",
+      "name": "Success notification",
+      "tagline": "Powerful responsive animation",
+      "description": "Showing the succses notification.",
+      "price": "$5",
+      "mainImage": "succses noti.png",
+      "testimonials": [
+        "succses noti.png",
+        "succses notic mobile.png",
+        "succses notic screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Positive feedback message",
+        "✏️ smooth success animation",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A notification used to display helpful information.",
+      "useCases": "Used after succsessful actions or submissons",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+     {
+      "id": "Warning-notification",
+      "name": "Warning notification",
+      "tagline": "Clean and responsive ",
+      "description": "Showing the warning notification.",
+      "price": "$5",
+      "mainImage": "warning noti.png",
+      "testimonials": [
+        "warning noti.png",
+        "warning notic mobile.png",
+        "warning notic screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A warning notifiacion for cirtical or dangerous actions.",
+      "useCases": "Used befor or after risky actions / Alerts users about potential data loss or danger",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    }
+  
+    
+  ]
+}
