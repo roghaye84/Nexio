@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products – Nexio</title>
+
+  <!-- فونت‌ها -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pV5hZ2lh5JOC+Jm9YvMT7j5j6K0qO5l6syw8JZjWQ6f+qXoDJYr8K3j0R1ohF/6+Pq6pHG0ZigqTvz1Ik0N5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- استایل -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+        /* استایل کلی */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#E9EEFD;
+        }
+
+        .products-page {
+            padding: 100px 20px 60px; /* فاصله از هدر و پایین */
+            text-align: center;
+            background:#E9EEFD;
+            margin-top: 50px;
+          
+        }
+        
+        .text-prodoucts {
+            font-size: 40px;
+            color: #000000;
+            font-weight: 700;
+        }
+
+        /* دکمه‌های تب */
+        .toggle-buttons1{
+            text-align: center;
+            margin-bottom: 3rem;
+            margin-top: -60px;
+        }
+
+        .tab-btn {
+            padding: 12px 40px; /* کمی بزرگ‌تر برای بهتر دیده شدن */
+            border-radius: 8px;
+            border: 2px solid #e5e7eb;
+            background: #e5e7eb;
+            cursor: pointer;
+            margin: 0 10px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease; /* انیمیشن بهتر */
+            color: #333;
+        }
+
+        .tab-btn:hover {
+            background: #d1d5db;
+            transform: translateY(-2px); /* افکت hover */
+        }
+
+        .tab-btn.active {
+            background: #37aee2;
+            color: white;
+            border-color: #37aee2;
+        }
+
+        /* گرید کارت‌ها: همیشه ۳ تا در ردیف */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* دقیقاً سه عدد */
+            gap: 2rem;
+            max-width: 1100px;
+            margin:auto;
+        }
+
+        /* کارت‌ها ثابت و بدون کشیده شدن */
+        .product-card {
+            background: white;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            max-width: 340px; /* پهن نشود */
+            margin: auto; /* وسط بماند */
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease-out forwards;
+            cursor: pointer; /* نشان‌دهنده کلیک‌پذیری */
+        }
+
+        .product-card:nth-child(1) { animation-delay: 0.2s; }
+        .product-card:nth-child(2) { animation-delay: 0.4s; }
+        .product-card:nth-child(3) { animation-delay: 0.6s; }
+        .product-card:nth-child(4) { animation-delay: 0.8s; }
+        .product-card:nth-child(5) { animation-delay: 1.0s; }
+        .product-card:nth-child(6) { animation-delay: 1.2s; }
+        .product-card:nth-child(7) { animation-delay: 1.4s; }
+        .product-card:nth-child(8) { animation-delay: 1.6s; }
+        .product-card:nth-child(9) { animation-delay: 1.8s; }
+
+        .product-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        /* تصویر */
+        .product-image {
+            height: 180px;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* متن */
+        .product-card h3 {
+            padding: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .product-card p {
+            padding: 0 1rem 1rem;
+            font-size: 0.95rem;
+            color: #6b7280;
+        }
+
+        /* دکمه‌ها */
+        .product-buttons {
+            display: flex;
+            gap: 10px;
+            padding: 0 1rem 1rem;
+        }
+
+        .btn {
+            padding: 0.65rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+
+        .btn-outline:hover {
+            background: #dbeafe;
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #0069d9;
+            transform: translateY(-2px);
+        }
+
+        /* انیمیشن ورود */
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* مخفی کردن کارت‌ها به طور پیش‌فرض برای دسته‌های غیرفعال */
+        .product-card.hidden {
+            display: none;
+        }
+        /* ---------------------- RESPONSIVE ---------------------- */
+
+/* ⚡ موبایل‌های کوچک (۳۲۰ تا ۴۸۰px) */
+@media (max-width: 480px) {
+
+    .products-page {
+        padding: 60px 10px;
+        margin-top: 20px;
+    }
+
+    .text-prodoucts {
+        font-size: 28px;
+    }
+
+    .toggle-buttons1 {
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tab-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(1, 1fr); /* یک ستون */
+        gap: 1.5rem;
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+
+    nav .main-menu {
+        display: none;
+    }
+    
+    /*.menu-toggle1 {
+        display: block;
+    }*/
+
+    /*nav ul.sidebar {
+        display: none; /* بعداً JS فعال می‌کند */
+    }*/
+.menu-toggle {
+    display: block;
+    cursor: pointer;
+}
+
+
+/* ⚡ موبایل و تبلت متوسط (۴۸۰ تا ۷۶۸px) */
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr); /* دو ستون */
+        gap: 1.8rem;
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+
+    .tab-btn {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+}
+
+/* ⚡ تبلت تا لپ‌تاپ کوچک (۷۶۸ تا ۱۰۲۴px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr); /* سه ستون */
+    }
+
+    .product-card {
+        max-width: 100%;
+    }
+
+}
+
+/* ⚡ منوی موبایل */
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -280px;
+  height: 100vh;
+  width: 280px;
+  background: linear-gradient(135deg, #deebf8 0%, #c7d2fe 100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  transition: right 0.4s ease;
+  z-index: 1000;
+  box-shadow: -8px 0 25px rgba(0, 0, 0, 0.15);
+  border-left: 3px solid #4A6CF7;
+  background:  #ffffff;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 18px 25px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 10px;
+  margin: 8px 15px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.sidebar li a:hover {
+  background-color: rgba(74, 108, 247, 0.25);
+  color: #4A6CF7;
+  transform: translateX(-8px);
+  box-shadow: 0 4px 15px rgba(74, 108, 247, 0.2);
+}
+
+.sidebar li a.active {
+  background-color: #4A6CF7;
+  color: white;
+  box-shadow: 0 4px 15px rgba(74, 108, 247, 0.4);
+}
+}
+
+    </style>
+</head>
+<body>
+<div class="contianer">
+  <nav>
+  <!-- لوگو -->
+  <div class="logo">Nexio</div>
+
+  <!-- آیکون منو موبایل -->
+  <span class="menu-toggle material-symbols-outlined">
+    <span class="icon-text">menu</span>
+  </span>
+
+  <!-- منوی دسکتاپ -->
+  <ul class="main-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <!-- منوی کناری موبایل -->
+  <ul class="sidebar">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<div class="products-page">
+    <div class="text-prodoucts">Products</div>
+</div>
+
+<section class="products-section">
+    <!-- دکمه‌های بالا -->
+    <div class="toggle-buttons1">
+        <button class="tab-btn active" data-tab="web">Web Templates</button>
+        <button class="tab-btn" data-tab="mobile">Mobile Components</button>
+        <button class="tab-btn" data-tab="ui">UI Kits</button>
+        <button class="tab-btn" data-tab="tools">Scripts & Tools</button>
+    </div>
+
+    <!-- کارت‌ها -->
+    <div class="products-grid">
+        <!-- محصولات Web -->
+      <div class="product-card" data-category="web">
+            <div class="product-image"><img src="cool landing-page.png" alt="Dark-portfolio" /></div>
+            <h3>Dark Portfolio</h3>
+            <p>Sleek dark-mode portfolio for your projects.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Dark-portfolio'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Dark-portfolio'">Buy Now</button>
+            </div>
+        </div>
+        <div class="product-card" data-category="web">
+            <div class="product-image"><img src="cute-landing-page.png" alt="Light portfolio" /></div>
+            <h3>Light Portfolio</h3>
+            <p>clean, modern single-page portfolio.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Light portfolio'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Light portfolio'">Buy Now</button>
+            </div>
+        </div>
+          <div class="product-card" data-category="web">
+            <div class="product-image"><img src="subscription page.png" alt="Landing page" /></div>
+            <h3>Subscription Plan page</h3>
+            <p>Subscription page showing pricing plans.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Subscription-Plan-page'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Subscription-Plan-page'">Buy Now</button>
+            </div>
+        </div>
+        
+
+      <div class="product-card" data-category="web">
+            <div class="product-image"><img src="about us page.png" alt="Mobile App UI" /></div>
+            <h3>About us page</h3>
+            <p>About page to present your team.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=About-us-page'">Read More</button>
+                 <button class="btn btn-primary" onclick="window.location.href='buy.html?id=About-us-page'">Buy Now</button>
+            </div>
+        </div>
+
+       <div class="product-card" data-category="web">
+            <div class="product-image"><img src="login-simple.png" alt="Mobile App UI" /></div>
+            <h3> Simple Login/Sign Up</h3>
+            <p>Responsive login/sign up page ready to use.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Login/Sign Up'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Login/Sign Up'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="web">
+            <div class="product-image"><img src="contact us page.png" alt="Mobile App UI" /></div>
+            <h3>Contact  page</h3>
+            <p>A clean and stylish contact page.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Contact-page'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Contact-page'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="web">
+            <div class="product-image"><img src="fourth.png" alt="Mobile App UI" /></div>
+            <h3>Login/Sign Up animation</h3>
+            <p>Responsive login/sign up page ready to use.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Login/Sign Up-animation'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Login/Sign Up-animation'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="web">
+            <div class="product-image"><img src="fully contact us.png" alt="Mobile App UI" /></div>
+            <h3>Full Contact page</h3>
+            <p>A full-featured contact page.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Full-Contact-page'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Full-Contact-page'">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- محصولات Mobile -->
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="seachbox1.png" alt=" search box" /></div>
+            <h3> Hover expand search box</h3>
+            <p>A search box that exoands when you hoverd.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Searching-box1'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Searching-box1'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="searchbox2.png" alt="iOS Components" /></div>
+            <h3>Click expand search box</h3>
+            <p>Stylish search box that grows on click.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Searching-box2'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Searching-box2'" >Buy Now</button>
+            </div>
+        </div>
+         <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="search box3.png" alt="iOS Components" /></div>
+            <h3>Simple stylish search box</h3>
+            <p>modern and responsive serch box.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Searching-box3'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Searching-box3'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="loding1.png" alt="Automation Script" /></div>
+            <h3>Circle loader page</h3>
+            <p>circle loading page with rotaing circle.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=loading-animation1'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=loading-animation1'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="loading2.png" alt="Plugin Pack" /></div>
+            <h3>Gradient loading page</h3>
+            <p>Modern loading page with Gradient.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=loading-animation2'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=loading-animation2'">Buy Now</button>
+            </div>
+        </div>
+
+         <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="loading3.png" alt="Plugin Pack" /></div>
+            <h3>Progress bar loading page</h3>
+            <p>minimal loading page with animation.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=loading-animation3'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=loading-animation3'">Buy Now</button>
+            </div>
+        </div>
+        
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="discount card.png" alt="Plugin Pack" /></div>
+            <h3>Discount Product card</h3>
+            <p>Responsive product card wirh discounting.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Discount-Product-card'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Discount-Product-card'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="Simple prduct card.png" alt="Plugin Pack" /></div>
+            <h3>Simple Product card</h3>
+            <p>A clean simple product card for any used.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Simple-Product-card'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Simple-Product-card'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="modern product card.png" alt="Plugin Pack" /></div>
+            <h3>Modern Product card</h3>
+            <p>A modern and stylish product card.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Modern-Product-card'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=Modern-Product-card'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="interactive pricing card.png" alt="Plugin Pack" /></div>
+            <h3>interactive pricing card</h3>
+            <p>A responsive interactive pricing card.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=interactive-pricing-card'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=interactive-pricing-card'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="simple buttom navigation.png" alt="Plugin Pack" /></div>
+            <h3>simple buttom navigation</h3>
+            <p>A simple and clean bottom navigation.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=simple-buttom-navigation'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=simple-buttom-navigation'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="mobile">
+            <div class="product-image"><img src="modern buttom navigation..png" alt="Plugin Pack" /></div>
+            <h3>modern buttom navigation</h3>
+            <p>A modern bottom navigation.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=modern-buttom-navigation'">Read More</button>
+              <button class="btn btn-primary" onclick="window.location.href='buy.html?id=modern-buttom-navigation'">Buy Now</button>
+            </div>
+        </div>
+        <!-- محصولات UI -->
+        <div class="product-card hidden" data-category="ui">
+            <div class="product-image"><img src="fourth.png" alt="Dashboard UI" /></div>
+            <h3>floating Buttons pack</h3>
+            <p>Clean and functional dashboard.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Floating-buttons-pack'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Floating-buttons-pack'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="ui">
+            <div class="product-image"><img src="first.png" alt="Icon Set" /></div>
+            <h3>search boxex pack</h3>
+            <p>High-quality icons for your projects.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=search-boxex-pack'">Read More</button>
+                <button class="btn btn-primary" onclick="window.location.href='buy.html?id=search-boxex-pack'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="ui">
+            <div class="product-image"><img src="second.png" alt="Wireframe Kit" /></div>
+            <h3>Loading pack</h3>
+            <p>Essential wireframes for prototyping.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=loading-pack'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=loading-pack'">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- محصولات Tools -->
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="third.png" alt="JavaScript Library" /></div>
+            <h3>Advance Responsive Slider</h3>
+            <p>Powerful responsive slider animation.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=slider'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=slider'">Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="floating-button1.png" alt="iOS Components" /></div>
+            <h3>Header menue floating button</h3>
+            <p>Floating button to reveal menus.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Floating-button1'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Floating-button1'" >Buy Now</button>
+            </div>
+        </div>
+
+         <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="flotaing button2.png" alt="iOS Components" /></div>
+            <h3>Social share floating button</h3>
+            <p>floating buttons for sharing content.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Floating-button2'" >Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Floating-button2'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="floating btn3.png" alt="iOS Components" /></div>
+            <h3>Document action floating button</h3>
+            <p>floating buttons for creat PDF action.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Floating-button3'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Floating-button3'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="delete noti.png" alt="iOS Components" /></div>
+            <h3>Delete notification</h3>
+            <p>Showing the delete notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Delete-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Delete-notification'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="empty noti.png" alt="iOS Components" /></div>
+            <h3>Empty notification</h3>
+            <p>Showing the empty notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Empty-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Empty-notification'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="error noti.png" alt="iOS Components" /></div>
+            <h3>Error notification</h3>
+            <p>Showing the error notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Error-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Error-notification'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="info noti.png" alt="iOS Components" /></div>
+            <h3>Info notification</h3>
+            <p>Showing the info notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Info-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Info-notification'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="succses noti.png" alt="iOS Components" /></div>
+            <h3>Success notification</h3>
+            <p>Showing the succses notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline" onclick="window.location.href='deatails.html?id=Success-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Success-notification'" >Buy Now</button>
+            </div>
+        </div>
+
+        <div class="product-card hidden" data-category="tools">
+            <div class="product-image"><img src="warning noti.png" alt="iOS Components" /></div>
+            <h3>Warning notification</h3>
+            <p>Showing the warning notification.</p>
+            <div class="product-buttons">
+                <button class="btn btn-outline"  onclick="window.location.href='deatails.html?id=Warning-notification'">Read More</button>
+                <button class="btn btn-primary"  onclick="window.location.href='buy.html?id=Warning-notification'" >Buy Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // جاوا اسکریپت برای تب‌ها
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const productCards = document.querySelectorAll('.product-card');
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // حذف کلاس active از همه تب‌ها
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            // اضافه کردن کلاس active به تب کلیک‌شده
+            button.classList.add('active');
+
+            const selectedTab = button.getAttribute('data-tab');
+
+            // نمایش/پنهان کردن کارت‌ها بر اساس دسته
+            productCards.forEach(card => {
+                if (card.getAttribute('data-category') === selectedTab) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        });
+    });
+
+    // جاوا اسکریپت برای کلیک روی کارت‌ها (اسکرول به products-page)
+    productCards.forEach(card => {
+        card.addEventListener('click', () => {
+            const productsPage = document.querySelector('.products-page');
+            productsPage.scrollIntoView({ behavior: 'smooth' });
+            // اگر می‌خواهید به صفحه جداگانه بروید، اینجا تغییر دهید، مثلاً window.location.href = 'product-detail.html';
+        });
+    });
+    //جدیذه برای قسمت تکمحصولات//
+    // منتظر بارگذاری کامل صفحه باشید
+document.addEventListener('DOMContentLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = urlParams.get('id');
+
+  if (!productId) {
+      // اگر ID نیست، فقط کد تک محصول را اجرا نکن
+      return;
+  }
+
+  // کد بارگذاری JSON و پر کردن صفحه محصول
+  fetch('products-data.json')
+    .then(response => response.json())
+    .then(data => {
+      const product = data.products.find(p => p.id === productId);
+      if (!product) {
+        alert('Product not found!');
+        return;
+      }
+      // ادامه پر کردن اطلاعات محصول
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+});
+
+
+  // لود کردن داده‌ها از JSON
+  fetch('products-data.json')
+    .then(response => response.json())
+    .then(data => {
+      const product = data.products.find(p => p.id === productId);
+      if (!product) {
+        alert('Product not found!');
+        return;
+      }
+
+      // پر کردن داده‌ها در صفحه
+      document.querySelector('.right-side h1').textContent = product.name.toUpperCase();
+      document.querySelector('.right-side .tagline').textContent = product.tagline;
+      document.querySelector('.price').textContent = product.price;
+      document.querySelector('.left-side .main-image').src = product.mainImage;
+      document.querySelector('.left-side .main-image').alt = product.name;
+
+      // پر کردن testimonials
+      const testimonialContainer = document.querySelector('.testimonial-images');
+      testimonialContainer.innerHTML = ''; // پاک کردن قبلی
+      product.testimonials.forEach(imgSrc => {
+        const img = document.createElement('img');
+        img.src = imgSrc;
+        img.alt = 'Testimonial';
+        img.className = 'thumbnail';
+        testimonialContainer.appendChild(img);
+      });
+
+      // پر کردن ZIP contents
+      document.querySelector('.zip-list').textContent = product.zipContents;
+
+      // پر کردن features
+      const featuresContainer = document.querySelector('.features');
+      featuresContainer.innerHTML = ''; // پاک کردن قبلی
+      product.features.forEach(feature => {
+        const div = document.createElement('div');
+        div.className = 'feature-item';
+        div.textContent = feature;
+        featuresContainer.appendChild(div);
+      });
+
+      // پر کردن بخش‌های دیگر
+      document.querySelector('.section:nth-of-type(1) p').textContent = product.highlights;
+      document.querySelector('.section:nth-of-type(2) li strong').nextSibling.textContent = product.useCases;
+      document.querySelector('.section:nth-of-type(3) p:nth-of-type(1)').textContent = `Version: ${product.technicalInfo.version}`;
+      document.querySelector('.section:nth-of-type(3) p:nth-of-type(2)').textContent = `Last Update: ${product.technicalInfo.lastUpdate}`;
+      document.querySelector('.section:nth-of-type(3) p:nth-of-type(3)').textContent = `Technologies: ${product.technicalInfo.technologies}`;
+      document.querySelector('.section:nth-of-type(3) p:nth-of-type(4)').textContent = `File Size: ${product.technicalInfo.fileSize}`;
+      document.querySelector('.section:nth-of-type(4) p').textContent = product.supportInfo;
+
+      // حالا کد قبلی برای تغییر تصویر اصلی رو دوباره فعال کن
+      const mainImage = document.getElementById('main-image');
+      const thumbnails = document.querySelectorAll('.thumbnail');
+      thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('click', function() {
+          mainImage.src = this.src;
+          mainImage.alt = this.alt;
+        });
+      });
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const sidebar = document.querySelector('.sidebar');
+
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('show');
+  });
+
+  sidebar.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      sidebar.classList.remove('show');
+    });
+  });
+});
+if (productId) {
+  // کد بارگذاری JSON و نمایش محصول
+}
+
+</script>
+
+</body>
+</html>
