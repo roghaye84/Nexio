@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buy Product</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #E7EDFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #16a34a;
+  margin-bottom: 20px;
+}
+.wallet {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  word-break: break-all;
+  margin-bottom: 20px;
+}
+.steps {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.steps li {
+  margin: 10px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #5a6fd5 0%, #6a40ab 100%);
+}
+.note {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1 id="product-name"></h1>
+  <div class="price" id="product-price"></div>
+  
+  <h3>USDT Wallet Address (TRC20)</h3>
+  <div class="wallet" id="product-wallet"></div>
+  
+  <h3>How to Buy</h3>
+  <ol class="steps">
+    <li>Send the exact amount to the wallet above.</li>
+    <li>Save your transaction hash (TxID).</li>
+    <li>Click the button below to fill the purchase form.</li>
+  </ol>
+  
+  <a id="form-link" class="btn" target="_blank">I’ve Paid → Fill Form</a>
+  <div class="note">After verification, download link will be sent to your email.</div>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const productId = params.get('id');
+
+fetch('buy.json')
+  .then(res => res.json())
+  .then(data => {
+    const product = data.products.find(p => p.id === productId);
+    if (!product) {
+      alert('Product not found!');
+      return;
+    }
+    document.getElementById('product-name').textContent = product.name;
+    document.getElementById('product-price').textContent = product.price;
+    document.getElementById('product-wallet').textContent = product.wallet;
+    document.getElementById('form-link').href = product.formLink;
+  })
+  .catch(err => {
+    console.error(err);
+    alert('Error loading product data');
+  });
+
+
+  
+</script>
+
+</body>
+</html>
