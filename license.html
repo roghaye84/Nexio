@@ -1,117 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us – Nexio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>License – Nexio</title>
 
-  <!-- فونت‌ها -->
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-<!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pV5hZ2lh5JOC+Jm9YvMT7j5j6K0qO5l6syw8JZjWQ6f+qXoDJYr8K3j0R1ohF/6+Pq6pHG0ZigqTvz1Ik0N5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- استایل -->
-  <link rel="stylesheet" href="style.css">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #333;
+}
+
+/* ===== BACK LINK ===== */
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    color: #444; /* رنگ متن اولیه */
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.back-link:hover {
+    color: #007bff; /* رنگ آبی روی هاور */
+    transform: translateX(-2px);
+}
+
+/* ===== SIMPLE HEADER ===== */
+.simple-header {
+    padding: 20px 20px 15px;
+    text-align: center;
+}
+
+.simple-header h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #004bb0;
+}
+
+.simple-header span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== LICENSE SECTION ===== */
+.license-section {
+    padding: 20px 20px 100px;
+}
+
+.license-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.license-box {
+    background: #F5F8FF;
+    border-left: 4px solid #007bff;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.license-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.license-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #004bb0;
+    margin: 30px 0 15px;
+}
+
+.license-box ul {
+    padding-left: 20px;
+}
+
+.license-box li {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.license-end {
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+/* ===== FOOTER ===== */
+.simple-footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .simple-header h1 {
+        font-size: 28px;
+    }
+
+    .license-box {
+        padding: 25px;
+    }
+
+    .back-link {
+        margin: 15px;
+    }
+}
+</style>
 </head>
+
 <body>
-  <div class="contianer">
-  <nav>
-  <!-- لوگو -->
-  <div class="logo">Nexio</div>
 
-  <!-- آیکون منو موبایل -->
-  <span class="menu-toggle material-symbols-outlined">
-    <span class="icon-text">menu</span>
-  </span>
+<!-- Back Link -->
+<a href="products.html" class="back-link">← Back to Products</a>
 
-  <!-- منوی دسکتاپ -->
-  <ul class="main-menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<header class="simple-header">
+    <h1>License Agreement</h1>
+    <span>Copyright (c) 2025 Nexio</span>
+</header>
 
-  <!-- منوی کناری موبایل -->
-  <ul class="sidebar">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-<section class="about-clean">
-    <div class="about-wrapper">
+<section class="license-section">
+    <div class="license-wrapper">
 
-        <div class="about-text">
-            <h2>About Me</h2>
+        <div class="license-box">
             <p>
-               I’m a designer and developer focused on creating clean, practical, and modern digital products.  
-Everything I build—whether a UI component, a full template, or a micro-tool—is crafted with intention, simplicity, and real-world usability in mind.
-
-I care deeply about details: structure, performance, clarity, and the experience you have when using my work.  
-My goal is to help developers move faster, avoid repetitive tasks, and build better products with less friction.
-
-Every item I create comes from hands-on experience, continuous refinement, and a commitment to delivering tools that genuinely make a difference.
-
+                Permission is granted to use this product for personal and commercial projects.
             </p>
 
-            <div class="about-features">
-                <div class="af-item">
-                    <i class="fa-regular fa-circle-check"></i>
-                    <span>High-quality UI components</span>
-                </div>
+            <h3>You MAY:</h3>
+            <ul>
+                <li>Use the code, templates, components, and assets in personal projects.</li>
+                <li>Use the code in commercial projects for your own business or for clients.</li>
+                <li>Modify the files to fit your project needs.</li>
+                <li>
+                    Use this product as part of a larger application or website,
+                    provided the product itself is not the primary value being sold.
+                </li>
+            </ul>
 
-                <div class="af-item">
-                   <i class="fa-solid fa-rocket"></i>
-                    <span>Fast & lightweight structure</span>
-                </div>
+            <h3>You MAY NOT:</h3>
+            <ul>
+                <li>Resell, redistribute, sublicense, or share this product or any of its files.</li>
+                <li>Include this product in any product, template, UI kit, or library that is sold or distributed.</li>
+                <li>
+                    Use this product in a SaaS, platform, or service where it is exposed
+                    as a reusable or downloadable asset.
+                </li>
+                <li>Claim this product or its contents as your own original work.</li>
+            </ul>
 
-                <div class="af-item">
-                    <i class="fa-regular fa-folder"></i>
-                    <span>Ready-to-use templates</span>
-                </div>
-            </div>
-        </div>
+            <h3>Disclaimer:</h3>
+            <ul>
+                <li>This product is provided "as is", without any warranty.</li>
+                <li>The author is not responsible for any damages or losses resulting from use.</li>
+            </ul>
 
-        <div class="about-stats">
-            <div class="stat-box">
-                <h3>40+</h3>
-                <p>Completed Components</p>
-            </div>
-
-            <div class="stat-box">
-                <h3>3+</h3>
-                <p>Years Experience</p>
-            </div>
-
-            <div class="stat-box">
-                <h3>100%</h3>
-                <p>Optimized Code</p>
-            </div>
+            <p class="license-end">
+                By using this product, you agree to these terms.
+            </p>
         </div>
 
     </div>
 </section>
-</div>
+
+<footer class="simple-footer">
+    © 2025 Nexio. All rights reserved.
+</footer>
+
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const menuToggle = document.querySelector('.menu-toggle');
-  const sidebar = document.querySelector('.sidebar');
-
-  menuToggle.addEventListener('click', () => {
-    sidebar.classList.toggle('show');
-  });
-
-  sidebar.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      sidebar.classList.remove('show');
-    });
-  });
-});
+// JS فعلاً نیازی نیست
 </script>
 
 </body>
