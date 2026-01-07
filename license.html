@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us – Nexio</title>
+
+  <!-- فونت‌ها -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pV5hZ2lh5JOC+Jm9YvMT7j5j6K0qO5l6syw8JZjWQ6f+qXoDJYr8K3j0R1ohF/6+Pq6pHG0ZigqTvz1Ik0N5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- استایل -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contianer">
+  <nav>
+  <!-- لوگو -->
+  <div class="logo">Nexio</div>
+
+  <!-- آیکون منو موبایل -->
+  <span class="menu-toggle material-symbols-outlined">
+    <span class="icon-text">menu</span>
+  </span>
+
+  <!-- منوی دسکتاپ -->
+  <ul class="main-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <!-- منوی کناری موبایل -->
+  <ul class="sidebar">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<section class="about-clean">
+    <div class="about-wrapper">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+               I’m a designer and developer focused on creating clean, practical, and modern digital products.  
+Everything I build—whether a UI component, a full template, or a micro-tool—is crafted with intention, simplicity, and real-world usability in mind.
+
+I care deeply about details: structure, performance, clarity, and the experience you have when using my work.  
+My goal is to help developers move faster, avoid repetitive tasks, and build better products with less friction.
+
+Every item I create comes from hands-on experience, continuous refinement, and a commitment to delivering tools that genuinely make a difference.
+
+            </p>
+
+            <div class="about-features">
+                <div class="af-item">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <span>High-quality UI components</span>
+                </div>
+
+                <div class="af-item">
+                   <i class="fa-solid fa-rocket"></i>
+                    <span>Fast & lightweight structure</span>
+                </div>
+
+                <div class="af-item">
+                    <i class="fa-regular fa-folder"></i>
+                    <span>Ready-to-use templates</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-box">
+                <h3>40+</h3>
+                <p>Completed Components</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>3+</h3>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>100%</h3>
+                <p>Optimized Code</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle');
+  const sidebar = document.querySelector('.sidebar');
+
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('show');
+  });
+
+  sidebar.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      sidebar.classList.remove('show');
+    });
+  });
+});
+</script>
+
+</body>
+</html>
