@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <style>
+    /* استایل‌ها همان قبلی */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background:#E7EDFD;
+      color: #2d3748;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      padding: 30px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 30px;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo::before {
+      content: "●";
+      color: #4c51bf;
+      font-size: 1.2em;
+    }
+    .back-link {
+      color: #4a5568;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .back-link:hover {
+      color: #2b6cb0;
+      text-decoration: underline;
+    }
+
+    .product-main {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    /* Left Side */
+    .left-side {
+      flex: 1;
+    }
+    .main-image {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .testimonials {
+      margin: 20px 0;
+    }
+    .testimonials h3 {
+      font-size: 0.9rem;
+      color: #4a5568;
+      margin-bottom: 10px;
+    }
+    .testimonial-images {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding: 5px 0;
+    }
+    .testimonial-images img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #e2e8f0;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
+    .testimonial-images img:hover {
+      border-color: #4c51bf;
+    }
+
+    .zip-section {
+      margin: 20px 0;
+    }
+    .zip-section h3 {
+      font-size: 0.9rem;
+      color: #4a5568;
+      margin-bottom: 10px;
+    }
+    .zip-list {
+      background: #f7fafc;
+      padding: 15px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      white-space: pre-line;
+    }
+
+    /* Right Side */
+    .right-side {
+      flex: 1;
+    }
+    .right-side h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #1a202c;
+      margin-bottom: 10px;
+    }
+    .right-side p.tagline {
+      font-size: 1.1rem;
+      color: #4a5568;
+      margin-bottom: 15px;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #2d3748;
+      margin: 10px 0;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    .btn-secondary {
+      background: #f7fafc;
+      color: #2d3748;
+      border: 1px solid #e2e8f0;
+    }
+    .btn-primary:hover {
+      background: linear-gradient(90deg, #5a6fd5 0%, #6a40ab 100%);
+    }
+    .btn-secondary:hover {
+      background: #edf2f7;
+    }
+    .terms-acknowledge {
+  margin-top: 15px;
+  font-size: 0.85rem;
+  color: #4a5568;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.terms-acknowledge input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.terms-acknowledge label {
+  cursor: pointer;
+}
+
+.terms-acknowledge a {
+  color: #4c51bf;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.terms-acknowledge a:hover {
+  color: #2b6cb0;
+}
+
+    .features {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+      color: #4a5568;
+    }
+
+    .section {
+      margin: 20px 0;
+    }
+    .section h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #2d3748;
+    }
+    .section p {
+      margin: 5px 0;
+      color: #4a5568;
+    }
+    .section ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+    .section li {
+      margin: 5px 0;
+      color: #4a5568;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #e2e8f0;
+      margin-top: 30px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .product-main {
+        flex-direction: column;
+      }
+      .btn-group {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Nexio</div>
+      <a href="products.html" class="back-link">← Back to Products</a>
+    </header>
+
+    <div class="product-main">
+      <!-- LEFT SIDE -->
+      <div class="left-side">
+        <img src="" alt="" class="main-image" id="main-image">
+
+        <div class="testimonials">
+          <h3>Testimonials</h3>
+          <div class="testimonial-images">
+            <!-- تصاویر اینجا پویا پر می‌شن -->
+          </div>
+        </div>
+
+        <div class="zip-section">
+          <h3>What's Inside the ZIP</h3>
+          <div class="zip-list">
+            <!-- محتوا اینجا پویا پر می‌شه -->
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="right-side">
+        <h1><!-- نام محصول اینجا پر می‌شه --></h1>
+        <p class="tagline"><!-- تگلاین اینجا پر می‌شه --></p>
+        <div class="price"><!-- قیمت اینجا پر می‌شه --></div>
+
+        <div class="btn-group">
+          <button class="btn btn-primary">
+            <svg width="16" height="16" fill="currentColor"><path d="M10 8l4-4H2l4 4z"/></svg>
+            View Live Demo
+          </button>
+          <button id="buy-button" class="btn btn-secondary">
+            Buy Now (via Sellix)
+          </button>
+        </div>
+        <div class="terms-acknowledge">
+  <input type="checkbox" id="terms-check">
+  <label for="terms-check">
+    By clicking Buy Now, you agree to our
+    <a href="Terms of Service.html" target="_blank">Terms of Service</a>.
+  </label>
+</div>
+
+
+        <div class="features">
+          <!-- ویژگی‌ها اینجا پویا پر می‌شن -->
+        </div>
+
+        <div class="section">
+          <h3>Feature Highlights</h3>
+          <p><!-- هایلایت‌ها اینجا پر می‌شه --></p>
+        </div>
+
+        <div class="section">
+          <h3>Description</h3>
+          <ul>
+            <li><strong>Use Cases:</strong> <!-- یوزکیس‌ها اینجا پر می‌شه --></li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Technical Info</h3>
+          <p><!-- ورژن --></p>
+          <p><!-- آپدیت --></p>
+          <p><!-- تکنولوژی‌ها --></p>
+          <p><!-- سایز --></p>
+        </div>
+
+        <div class="section">
+          <h3>Support Info</h3>
+          <p><!-- پشتیبانی --></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 Nexio.
+    </footer>
+  </div>
+
+  <script>
+    // منتظر بارگذاری کامل صفحه باشید
+    document.addEventListener('DOMContentLoaded', function() {
+      // گرفتن پارامتر ID از URL (مثلاً ?id=landing-page)
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('id');
+
+      console.log('Product ID from URL:', productId); // برای دیباگ: چک کن کنسول
+
+      if (!productId) {
+        alert('Product ID not found in URL! Please add ?id=product-id to the URL.');
+        return;
+      }
+
+      // لود کردن داده‌ها از JSON
+      fetch('products-data.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Failed to load JSON file. Check if products-data.json exists and server is running.');
+          }
+          return response.json();
+        })
+        .then(data => {
+          const product = data.products.find(p => p.id === productId);
+          if (!product) {
+            alert('Product not found! Check the ID in URL.');
+            return;
+          }
+
+          // پر کردن داده‌ها در صفحه (با چک کردن وجود عنصر)
+          const h1 = document.querySelector('.right-side h1');
+          if (h1) h1.textContent = product.name.toUpperCase();
+
+          const tagline = document.querySelector('.right-side .tagline');
+          if (tagline) tagline.textContent = product.tagline;
+
+          const price = document.querySelector('.price');
+          if (price) price.textContent = product.price;
+
+          const mainImage = document.querySelector('.left-side .main-image');
+          if (mainImage) {
+            mainImage.src = product.mainImage;
+            mainImage.alt = product.name;
+          }
+
+          // پر کردن testimonials
+          const testimonialContainer = document.querySelector('.testimonial-images');
+          if (testimonialContainer) {
+            testimonialContainer.innerHTML = '';
+            product.testimonials.forEach(imgSrc => {
+              const img = document.createElement('img');
+              img.src = imgSrc;
+              img.alt = 'Testimonial';
+              img.className = 'thumbnail';
+              testimonialContainer.appendChild(img);
+            });
+          }
+
+          // پر کردن ZIP contents
+          const zipList = document.querySelector('.zip-list');
+          if (zipList) zipList.textContent = product.zipContents;
+
+          // پر کردن features
+          const featuresContainer = document.querySelector('.features');
+          if (featuresContainer) {
+            featuresContainer.innerHTML = '';
+            product.features.forEach(feature => {
+              const div = document.createElement('div');
+              div.className = 'feature-item';
+              div.textContent = feature;
+              featuresContainer.appendChild(div);
+            });
+          }
+
+          // پر کردن بخش‌های دیگر
+          const sections = document.querySelectorAll('.section');
+          if (sections[0] && sections[0].querySelector('p')) sections[0].querySelector('p').textContent = product.highlights;
+          if (sections[1] && sections[1].querySelector('li')) sections[1].querySelector('li').innerHTML = `<strong>Use Cases:</strong> ${product.useCases}`;
+          if (sections[2]) {
+            const techPs = sections[2].querySelectorAll('p');
+            if (techPs[0]) techPs[0].textContent = `Version: ${product.technicalInfo.version}`;
+            if (techPs[1]) techPs[1].textContent = `Last Update: ${product.technicalInfo.lastUpdate}`;
+            if (techPs[2]) techPs[2].textContent = `Technologies: ${product.technicalInfo.technologies}`;
+            if (techPs[3]) techPs[3].textContent = `File Size: ${product.technicalInfo.fileSize}`;
+          }
+          if (sections[3] && sections[3].querySelector('p')) sections[3].querySelector('p').textContent = product.supportInfo;
+
+          // گالری تصاویر: تغییر تصویر اصلی از thumbnails
+          const mainImg = document.getElementById('main-image');
+          const thumbnails = document.querySelectorAll('.thumbnail');
+          thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', function() {
+              if (mainImg) {
+                mainImg.src = this.src;
+                mainImg.alt = this.alt;
+              }
+            });
+          });
+        })
+        .catch(error => {
+          console.error('Error loading JSON:', error);
+          alert('Error: ' + error.message + '. Make sure you are running a local server and files are in the same folder.');
+        });
+    });
+
+
+    
+    document.addEventListener('DOMContentLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = urlParams.get('id');
+
+  const buyButton = document.getElementById('buy-button');
+  if (buyButton && productId) {
+      buyButton.addEventListener('click', () => {
+          // اینجا لینک به buy.html با همان id محصول ساخته می‌شود
+          window.location.href = `buy.html?id=${productId}`;
+      });
+  }
+});
+
+    
+  </script>
+</body>
+</html>
