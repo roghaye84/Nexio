@@ -198,11 +198,20 @@
     }
 
     .toggle-buttons1 {
-        margin-top: -20px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;      /* ✅ وسط‌چین افقی */
+    justify-content: center;
+    width: 100%;
+}
+
+.tab-btn {
+    width: 90%;              /* ✅ جلوگیری از چسبیدن به راست */
+    max-width: 320px;
+    text-align: center;
+}
 
     .tab-btn {
         width: 100%;
