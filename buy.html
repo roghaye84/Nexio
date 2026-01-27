@@ -4,93 +4,167 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Buy Product</title>
+
 <style>
+/* Reset & Font */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #E7EDFD;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
+
 .container {
   background: #fff;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  max-width: 500px;
-  width: 90%;
-  text-align: center;
+  padding: 40px 30px;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  max-width: 520px;
+  width: 92%;
+  text-align: center; /* همه متن ها وسط */
 }
+
 h1 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #1e293b;
 }
+
+.product-code {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
 .price {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #16a34a;
-  margin-bottom: 20px;
+  color: #16a34a; /* سبز روشن */
+  margin-bottom: 24px;
 }
-.wallet {
+
+.section {
   background: #f8fafc;
-  padding: 15px;
-  border-radius: 8px;
-  font-family: monospace;
-  word-break: break-all;
+  border-radius: 12px;
+  padding: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
+
+.section h3 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.section p,
+.section li {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.6;
+}
+
 .steps {
-  text-align: left;
-  margin-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 0;
+  list-style-position: inside;
 }
+
 .steps li {
-  margin: 10px 0;
+  margin: 8px 0;
 }
+
 .btn {
-  display: inline-block;
-  padding: 14px 30px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
   color: white;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
   transition: 0.3s;
 }
+
 .btn:hover {
-  background: linear-gradient(90deg, #5a6fd5 0%, #6a40ab 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(102,126,234,0.35);
 }
+
 .note {
   font-size: 0.85rem;
   color: #64748b;
-  margin-top: 10px;
+  margin-top: 14px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+  .price {
+    font-size: 1.7rem;
+  }
+  .section h3 {
+    font-size: 1rem;
+  }
+  .section p,
+  .section li {
+    font-size: 0.9rem;
+  }
 }
 </style>
 </head>
+
 <body>
 
 <div class="container">
-  <h1 id="product-name"></h1>
+  <h1 id="product-name">Loading...</h1>
+  <div class="product-code">Product Code: <strong id="product-code"></strong></div>
   <div class="price" id="product-price"></div>
-  
-  <h3>USDT Wallet Address (TRC20)</h3>
-  <div class="wallet" id="product-wallet"></div>
-  
-  <h3>How to Buy</h3>
-  <ol class="steps">
-    <li>Send the exact amount to the wallet above.</li>
-    <li>Save your transaction hash (TxID).</li>
-    <li>Click the button below to fill the purchase form.</li>
-  </ol>
-  
-  <a id="form-link" class="btn" target="_blank">I’ve Paid → Fill Form</a>
-  <div class="note">After verification, download link will be sent to your email.</div>
+
+  <div class="section">
+    <h3>How to Buy</h3>
+    <ol class="steps">
+      <li>Click the CryptoBot payment link</li>
+      <li>Pay in USDT</li>
+      <li>Download your file instantly</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h3>Refund Policy</h3>
+    <p>
+      If you face any issue with the product, you can request a refund within
+      24 hours after purchase. We provide fair and fast support.
+    </p>
+  </div>
+
+  <div class="section">
+    <h3>🎁 Free Gift</h3>
+    <p>
+      Leave a review after your purchase and receive a <strong>free bonus pack</strong> as a thank you gift.
+    </p>
+  </div>
+
+  <a id="buy-link" class="btn" target="_blank">Pay & Download</a>
+
+  <div class="note">
+    Secure payment • Instant access • Support included
+  </div>
 </div>
 
 <script>
@@ -102,21 +176,18 @@ fetch('buy.json')
   .then(data => {
     const product = data.products.find(p => p.id === productId);
     if (!product) {
-      alert('Product not found!');
+      alert('Product not found');
       return;
     }
+
     document.getElementById('product-name').textContent = product.name;
+    document.getElementById('product-code').textContent = product.code;
     document.getElementById('product-price').textContent = product.price;
-    document.getElementById('product-wallet').textContent = product.wallet;
-    document.getElementById('form-link').href = product.formLink;
+    document.getElementById('buy-link').href = product.paymentLink;
   })
-  .catch(err => {
-    console.error(err);
+  .catch(() => {
     alert('Error loading product data');
   });
-
-
-  
 </script>
 
 </body>
