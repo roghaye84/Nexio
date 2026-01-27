@@ -21,13 +21,14 @@
     {
       "id": "Dark-portfolio",
       "name": "Dark Portfolio",
+      "code": "DP-001",
       "price": "$7",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Light portfolio",
       "name": "Light Portfolio",
+      "code": "LP-002",
       "price": "$7",
       "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
@@ -35,218 +36,218 @@
     {
       "id": "Subscription-Plan-page",
       "name": "Subscription Plan page",
+      "code": "SPP-001",
       "price": "$8",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "About-us-page",
       "name": "About us page",
+      "code": "AUP-001",
       "price": "$7",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Contact-page",
       "name": "Contact page",
+      "code": "CP-001",
       "price": "$4",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Login/Sign Up",
       "name": "Login/Sign Up",
+      "code": "LS-001",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Login/Sign Up-animation",
       "name": "Login/Sign Up animation",
+      "code": "LSUA-002",
       "price": "$9",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Full-Contact-page",
       "name": "Full Contact page",
+      "code": "FCP-002",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "PUT_YOUR_GOOGLE_FORM_LINK_HERE"
     },
     {
       "id": "Searching-box1",
       "name": "Hover expand search box",
+      "code": "HESB-001",
       "price": "$2",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Searching-box2",
       "name": "Click expand search box",
+      "code": "CESB-002",
       "price": "$2",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Searching-box3",
       "name": "Simple stylish search box",
+      "code": "SSSB-003",
       "price": "$2",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Simple-Product-card",
       "name": "Simple Product card",
+      "code": "SPC-001",
       "price": "$7",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Discount-Product-card",
       "name": "Discount Product card",
+      "code": "DPC-002",
       "price": "$8",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Modern-Product-card",
       "name": "Modern Product card",
+      "code": "MPC-003",
       "price": "$9",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "interactive-pricing-card",
       "name": "interactive pricing card",
+      "code": "IPC-002",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "simple-buttom-navigation",
       "name": "simple bottom navigation",
+      "code": "SBN-001",
       "price": "$3",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "modern-buttom-navigation",
       "name": "modern bottom navigation",
+      "code": "MBN-002",
       "price": "$4",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Floating-button1",
       "name": "Header menu floating button",
+      "code": "HMFB-001",
       "price": "$2.5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Floating-button2",
       "name": "Social share floating button",
+      "code": "SSFB-002",
       "price": "$4",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Floating-button3",
       "name": "Document action floating button",
+      "code": "DAFB-003",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "loading-animation1",
       "name": "Circle loader page",
+      "code": "CLP-001",
       "price": "$2",
-      "wallet":"TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "loading-animation2",
       "name": "Gradient loading page",
+      "code": "GLP-002",
       "price": "$2",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "loading-animation3",
       "name": "Progress bar loading page",
+      "code": "PBLP-003",
       "price": "$2",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Floating-button1",
       "name": "Header menue floating button",
+      "code": "HMFB-001",
       "price": "$2.5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Floating-button2",
       "name": "Social share floating button",
+      "code": "SSFB-002",
       "price": "$4",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Floating-button3",
       "name": "Document action floating button",
+      "code": "DAFB-003",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "slider",
       "name": "Advance Responsive Slider",
+      "code": "ARS-001",
       "price": "$8",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Delete-notification",
       "name": "Delete notification",
+      "code": "DN-001",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Empty-notification",
       "name": "Empty notification",
+      "code": "EN-002",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Error-notification",
       "name": "Error notification",
+      "code": "EN-003",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Info-notification",
       "name": "Info notification",
+      "code": "IN-004",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
      {
       "id": "Success-notification",
       "name": "Success notification",
+      "code": "SN-005",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
     {
       "id": "Warning-notification",
       "name": "Warning notification",
+      "code": "WN-006",
       "price": "$5",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     }
   ]
