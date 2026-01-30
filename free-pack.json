@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "landing-page",
+      "name": "Landing page",
+      "price": "$7",
+      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
+      "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
+    },
+
+
+    {
+      "id": "Free-pack",
+      "name": "Free Pack",
+      "price": "Free",
+      "code": "FP-001",
+      "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
+    }]}
