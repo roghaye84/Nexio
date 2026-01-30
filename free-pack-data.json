@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "id": "landing-page",
+      "name": "Landing page",
+      "tagline": "Sleek, responsive & feature-rich",
+      "description": "Modern mobile interface design.",
+      "price": "$7",
+      "mainImage": "second.png",
+      "testimonials": [
+        "second.png",
+        "third.png",
+        "fourth.png",
+        "first.png",
+        "second.png"
+      ],
+      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A responsive and modern landing page kit built for SASS products, and agencies. Features a dark theme, animated sections, pre-built components.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase, and Coming Soon Page",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Free-pack",
+      "name": "Free Pack",
+      "tagline": "Sleek, built for designer and developer",
+      "description": "Modern mobile interface design.fgfgfgfgf",
+      "price": "Free",
+      "mainImage": "cool landing-page.png",
+      "testimonials": [
+        "Preview.jpeg",
+        "buttons.jpeg"
+      ],
+      "zipContents": "index.html\n/css\ndocumentation.pdf",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "clean lightweight & fast loading and easy to customize adn edit.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    }]}
