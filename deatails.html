@@ -299,12 +299,12 @@
         <div class="price"><!-- قیمت اینجا پر می‌شه --></div>
 
         <div class="btn-group">
-          <button class="btn btn-primary">
+          <button  id="demo-button" class="btn btn-primary">
             <svg width="16" height="16" fill="currentColor"><path d="M10 8l4-4H2l4 4z"/></svg>
             View Live Demo
           </button>
           <button id="buy-button" class="btn btn-secondary">
-            Buy Now
+            Buy Now 
           </button>
         </div>
         <div class="terms-acknowledge">
@@ -458,19 +458,38 @@
     });
 
 
-    
-    document.addEventListener('DOMContentLoaded', function() {
+   document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const productId = urlParams.get('id');
 
+  if (!productId) return;
+
   const buyButton = document.getElementById('buy-button');
-  if (buyButton && productId) {
-      buyButton.addEventListener('click', () => {
-          // اینجا لینک به buy.html با همان id محصول ساخته می‌شود
-          window.location.href = `buy.html?id=${productId}`;
-      });
-  }
+  const demoButton = document.getElementById('demo-button');
+
+  fetch('buy.json')
+    .then(res => res.json())
+    .then(data => {
+      const product = data.products.find(p => p.id === productId);
+      if (!product) return;
+
+      // Buy Now → CryptoBot
+      if (buyButton) {
+        buyButton.addEventListener('click', () => {
+          window.location.href = product.paymentLink;
+        });
+      }
+
+      // View Live Demo → باز کردن دمو در تب جدید
+      if (demoButton) {
+        demoButton.addEventListener('click', () => {
+          window.open(product.demoLink, '_blank');
+        });
+      }
+    })
+    .catch(err => console.error('Error loading product data:', err));
 });
+
 
     
   </script>
