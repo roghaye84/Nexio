@@ -14,7 +14,7 @@
         "first.png",
         "second.png"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Lightweight",
         "✏️ Fully Editable",
@@ -31,6 +31,34 @@
       "supportInfo": "If you need any help, contact me on Telegram"
     },
     {
+      "id": "Free-pack",
+      "name": "Free Pack",
+      "tagline": "Sleek, built for designer and developer",
+      "description": "Modern mobile interface design.fgfgfgfgf",
+      "price": "Free",
+      "mainImage": "cool landing-page.png",
+      "testimonials": [
+        "cool landing-page.png",
+        "dark ladding page mobile.png",
+        "dark landing pag screen.jpeg"
+      ],
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Lightweight",
+        "✏️ Fully Editable",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "clean lightweight & fast loading and easy to customize adn edit.",
+      "useCases": "Portfolio, Startup Intro, Mobile App Showcase",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2024-07-26",
+        "technologies": "HTML5, CSS3",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
       "id": "Dark-portfolio",
       "name": "Dark Portfolio",
       "tagline": "Sleek, built for designer and developer",
@@ -42,7 +70,7 @@
         "dark ladding page mobile.png",
         "dark landing pag screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Lightweight",
         "✏️ Fully Editable",
@@ -54,7 +82,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3, Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "158K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -62,7 +90,7 @@
       "id": "Light portfolio",
       "name": "Light Portfolio",
       "tagline": "Soft,clean & charming-perfect for creatives with love pastel vibes ",
-      "description": "Modern mobile interface design.fgfgfgfgf",
+      "description": "Modern mobile interface design.",
       "price": "$7",
       "mainImage": "cute-landing-page.png",
       "testimonials": [
@@ -71,7 +99,7 @@
         "cute ladnding page screen.jpeg"
 
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "🧸 Pastel Color Palette",
         "♥ Fully Editable",
@@ -83,7 +111,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3, Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "234K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -99,7 +127,7 @@
         "subscription page mobile.png",
         "subscription page screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Clean, modern design",
         "✏️ Fully Editable",
@@ -111,7 +139,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "116K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -127,7 +155,7 @@
         "about us mobile.png",
         "about us screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Lightweight",
         "✏️ Sections for team, mission, and story",
@@ -139,7 +167,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "192K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -155,7 +183,7 @@
         "simple contact mobile.png",
         "simple contact screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Minimal and elegant design",
         "✏️ Easy to integrate in any website",
@@ -183,7 +211,7 @@
         "login-simple mobile.png",
         "login-simple screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Simple and clean design",
         "✏️ Fully Editable",
@@ -195,7 +223,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3,",
-        "fileSize": "1.2 MB"
+        "fileSize": "59K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -211,7 +239,7 @@
         "login animation mobile.png",
         "login animation screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Clean and visually appealing UI",
         "✏️ Fully Editable",
@@ -223,7 +251,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3,Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "892K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -240,7 +268,7 @@
         "fully content mobile.png",
         "fully content screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Minimal and elegant design",
         "✏️ Easy to integrate in any website",
@@ -252,7 +280,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "1.5 MB"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -269,7 +297,7 @@
         "seach box1 mobile.png",
         "search box1 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Expand on hover for easy access",
         "✏️ Sleek and modern design",
@@ -281,7 +309,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "40K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -297,7 +325,7 @@
         "seach box2 mobile.png",
         "seachbox2 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Smooth animation for interaction",
         "✏️ Fully Editable",
@@ -309,7 +337,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "41K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -325,7 +353,7 @@
         "searchbox3 mobile.png",
         "searchbox3 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Minimal clean design",
         "💝User friendly",
@@ -337,7 +365,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "60K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -354,7 +382,7 @@
         "Simple Product card mobile.png",
         "Simple Product card screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Minimal clean design",
         "💝User friendly",
@@ -366,7 +394,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "577K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -383,7 +411,7 @@
         "Discount Product card mobile.png",
         "Discount Product card screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Minimal clean design",
         "💝User friendly",
@@ -395,7 +423,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "340K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -412,7 +440,7 @@
         "Modern Product card mobile.png",
         "Modern Product card screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Modern and stylish UI",
         "💝Easy to customize",
@@ -424,7 +452,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "274K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -441,7 +469,7 @@
         "interactive pricing card mobile.png",
         "interactive pricing card screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Smooth interactions",
         "💝Dispaly pricing and features clearly",
@@ -453,7 +481,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies":"HTML5, CSS3, Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "80K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -470,7 +498,7 @@
         "simple button navigation mobile.png",
         "simple navigation screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡clean and minimal mobile menu",
         "💝Easy to customize",
@@ -482,7 +510,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "58K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -499,7 +527,7 @@
         "modern mobile mune mobile.png",
         "modern mobile mnue screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Modern and attractive design",
         "💝Enhance users experience",
@@ -511,7 +539,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "60K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -527,7 +555,7 @@
         "floating button1 mobile.png",
         "floating button1 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ open click to reveal menum option",
         "✏️ Fully Editable",
@@ -539,7 +567,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "47K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -555,7 +583,7 @@
         "floating button2 mobile.png",
         "floating button2 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡open on click for sharing social apps",
         "✏️ easily customized text/icons",
@@ -567,7 +595,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3, Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "52K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -583,7 +611,7 @@
         "floating button3 mobile.png",
         "floating button3  screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡open to click to creat pdf",
         "✏️ Fully Editable",
@@ -595,7 +623,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3, Javascript",
-        "fileSize": "1.2 MB"
+        "fileSize": "55K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -613,7 +641,7 @@
         "first.png",
         "second.png"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ With Darkmode toggle",
         "✏️ Fully Editable",
@@ -643,7 +671,7 @@
         "first.png",
         "second.png"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ With Darkmode toggle",
         "✏️ Fully Editable",
@@ -673,7 +701,7 @@
         "first.png",
         "second.png"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ With Darkmode toggle",
         "✏️ Fully Editable",
@@ -701,7 +729,7 @@
         "slider mobile.png",
         "slider screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Modern and smooth animation",
         "✏️lightweight and performance-friendly",
@@ -729,7 +757,7 @@
         "loading1 mobile.png",
         "loading1 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡smooth and modern loading effect",
         "✏️ clean blue background",
@@ -741,7 +769,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "55K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -757,7 +785,7 @@
         "loding2 mobile.png",
         "loding2 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Gradient design",
         "✏️ Centerd loding text",
@@ -769,7 +797,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "45K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -785,7 +813,7 @@
         "loading3 mobile.png",
         "loading3 screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ smooth fill animation",
         "✏️ clean and minimal UI",
@@ -797,7 +825,7 @@
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "44K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     },
@@ -813,7 +841,7 @@
         "delete noti mobile.png",
         "delete noti screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Clean delete confirmation message",
         "✏️ smooth appreance animation",
@@ -841,7 +869,7 @@
         "empty notic mobile.png",
         "empty notic screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Clean empty confirmation message",
         "✏️smooth appreance animation",
@@ -869,7 +897,7 @@
         "error noti mobile.png",
         "error noti screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Clean error confirmation message",
         "✏️smooth appreance animation",
@@ -897,7 +925,7 @@
         "info noti mobile.png",
         "info notic screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡Clean info confirmation message",
         "✏️smooth appreance animation",
@@ -925,7 +953,7 @@
         "succses notic mobile.png",
         "succses notic screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Positive feedback message",
         "✏️ smooth success animation",
@@ -953,7 +981,7 @@
         "warning notic mobile.png",
         "warning notic screen.jpeg"
       ],
-      "zipContents": "index.html\n/css\n/js\nassets\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Warning focused design",
         "✏️ clear call to action support",
