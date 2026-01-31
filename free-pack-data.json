@@ -34,26 +34,27 @@
       "id": "Free-pack",
       "name": "Free Pack",
       "tagline": "Sleek, built for designer and developer",
-      "description": "Modern mobile interface design.fgfgfgfgf",
+      "description": "Free responsive Search Box & Navbar UI — ready to use, fully customizable, and framework-free. ",
       "price": "Free",
-      "mainImage": "cool landing-page.png",
+      "mainImage": "Free pack.png",
       "testimonials": [
         "Preview.jpeg",
-        "buttons.jpeg"
+        "Preview1.jpeg",
+        "Free pack.png"
       ],
-      "zipContents": "index.html\n/css\ndocumentation.pdf",
+      "zipContents": "index.html\n/css\n/js\nassets\nLicense.pdf\nREADME.md",
       "features": [
         "⚡ Lightweight",
         "✏️ Fully Editable",
         "📱 Mobile Responsive"
       ],
-      "highlights": "clean lightweight & fast loading and easy to customize adn edit.",
+      "highlights": "Free responsive Search Box & Navbar UI — ready to use, fully customizable, and framework-free.",
       "useCases": "Portfolio, Startup Intro, Mobile App Showcase",
       "technicalInfo": {
         "version": "1.0",
         "lastUpdate": "2024-07-26",
         "technologies": "HTML5, CSS3",
-        "fileSize": "1.2 MB"
+        "fileSize": "33K"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
     }]}
