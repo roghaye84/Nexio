@@ -35,14 +35,16 @@
       "name": "About us page",
       "code": "AUP-001",
       "price": "$7",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVfXCDyReVTb"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVfXCDyReVTb",
+      "demoLink": "https://youtu.be/WYeOS2j4rqk?si=HRQNJ6pg03jeo02u "
     },
     {
       "id": "Contact-page",
       "name": "Contact page",
       "code": "CP-001",
       "price": "$4",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVx22b57J4gw"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVx22b57J4gw",
+      "demoLink": "https://youtu.be/ckBKS_tA8Ng?si=97Tk-NfXXLnqIueX"
     },
     {
       "id": "Login/Sign Up",
@@ -92,7 +94,8 @@
       "name": "Simple Product card",
       "code": "SPC-001",
       "price": "$7",
-      "paymentLink":  "https://t.me/CryptoBot?start=IV7sMEh2CFkC"
+      "paymentLink":  "https://t.me/CryptoBot?start=IV7sMEh2CFkC",
+      "demoLink": "https://youtu.be/1NTMNpUYIoY?si=xmR1w3jLaoYcBpdn "
     },
     {
       "id": "Discount-Product-card",
@@ -106,7 +109,8 @@
       "name": "Modern Product card",
       "code": "MPC-003",
       "price": "$9",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVd7kWfodQJ5"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVd7kWfodQJ5",
+      "demoLink": "https://youtu.be/dR9tvwoKRj4?si=gCLLo34gNN5_QcPD"
     },
     {
       "id": "interactive-pricing-card",
