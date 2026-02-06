@@ -458,7 +458,7 @@
     });
 
 
-   document.addEventListener('DOMContentLoaded', function() {
+   document.addEventListener('DOMContentLoaded', function () {
   const urlParams = new URLSearchParams(window.location.search);
   const productId = urlParams.get('id');
 
@@ -473,21 +473,21 @@
       const product = data.products.find(p => p.id === productId);
       if (!product) return;
 
-      // Buy Now → CryptoBot
+      // Buy Now → buy.html
       if (buyButton) {
         buyButton.addEventListener('click', () => {
-          window.location.href = product.paymentLink;
+          window.location.href = `buy.html?id=${productId}`;
         });
       }
 
-      // View Live Demo → باز کردن دمو در تب جدید
-      if (demoButton) {
+      // View Live Demo
+      if (demoButton && product.demoLink) {
         demoButton.addEventListener('click', () => {
           window.open(product.demoLink, '_blank');
         });
       }
     })
-    .catch(err => console.error('Error loading product data:', err));
+    .catch(err => console.error('Error loading buy.json:', err));
 });
 
 
