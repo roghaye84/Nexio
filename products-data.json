@@ -996,8 +996,281 @@
         "fileSize": "1.2 MB"
       },
       "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Buttons-pack",
+      "name": "Buttons pack",
+      "tagline": "Clean and responsive and usefull for UI ",
+      "description": "A pack of buttons that including floating buttons and extramly good buttons hovers.",
+      "price": "$8",
+      "mainImage": "button pack for prdocust.png",
+      "testimonials": [
+        "button pack for prdocust.png",
+        "button hover pack.png",
+        "floating btn3.png",
+        "flotaing button2.png",
+         "floating-button1.png"
+      ],
+      "zipContents": "Button hover\nFloating buttons\n/Document action floating button\n/Social share floating button\n/Header menue floating button\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A pack of buttons that including floating buttons and extramly good buttons hovers.",
+      "useCases": "Personal portfolio / freelancer landing pages / designer or creative showcase websites",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Front-End-Stearter-pack",
+      "name": "Front-End Stearter pack",
+      "tagline": "Clean and responsive ",
+      "description": "A complete Stearter kit for frontend projects.",
+      "price": "$48",
+      "mainImage": "front end starter pack.png",
+      "testimonials": [
+        "auth pack.png",
+        "button pack for prdocust.png",
+        "pack portfolio website.png",
+        "loader pack.png",
+        "pricing product pack.png",
+        "search bar navigation pack.png" ,
+        "notificication pack.png",
+        "e-commerce pack.png"
+      ],
+      "zipContents": "Auth pack\nButton pack\nE-commerce pack\nLoders pack\nNotification & feedback pack\nPricing and products pack\nSearch and navigation pack\nWebsite pack\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A complete Stearter kit for frontend projects, inculding essientail UI components and pages to kickstart any web application.",
+      "useCases": "India hackers MVP/ personal portfolio for developers or designers / Early-stage SaaS projects / quick prototyping of web apps",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Website-pack",
+      "name": "Website pack",
+      "tagline": "Clean and responsive ",
+      "description": "A clean and modern set portfolio and personal website.",
+      "price": "$19",
+      "mainImage": "pack portfolio website.png",
+      "testimonials": [
+        "pack portfolio website.png",
+        "cool landing-page.png",
+        "cute-landing-page.png",
+         "about us page.png",
+         "contact us page.png",
+         "fully contact us.png"
+      ],
+      "zipContents": "Dark portoflio\nLight portfolio\nAbout us\nContact page\nFull contact page\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A clean and modern set portfolio and personal website pages for quick deployment.",
+      "useCases": "Personal portfolio / freelancer landing pages / designer or creative showcase websites",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Auth-pack",
+      "name": "Auth pack",
+      "tagline": "Clean and responsive ",
+      "description": "A ready to use login and sig-up pages.",
+      "price": "$12",
+      "mainImage": "auth pack.png",
+      "testimonials": [
+        "auth pack.png",
+        "login-simple.png",
+        "fourth.png"
+      ],
+      "zipContents": "Simple login sign-up\nAnimated login and sign-up\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A ready to use login and sig-up pages with modern animations.",
+      "useCases": "Startup MVPs / SaaS applications / web apps requiring authentications",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Loading-pack",
+      "name": "Loading-pack",
+      "tagline": "Clean and responsive ",
+      "description": "Animated loaders and progresse bars .",
+      "price": "$10",
+      "mainImage": "loader pack.png",
+      "testimonials": [
+        "loader pack.png",
+        "loding1.png",
+        "loading2.png",
+         "loading3.png"
+      ],
+      "zipContents": "Circle loader\nGradient loader\nProgress bar loader\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Animated loaders and progresse bars to enhance user experience.",
+      "useCases": "Web spps with long processes / SaaS applications / Interactive landing pages",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Pricing-pack",
+      "name": "Pricing-pack",
+      "tagline": "Clean and responsive ",
+      "description": "Interactive and stylish pricing.",
+      "price": "$22",
+      "mainImage": "pricing product pack.png",
+      "testimonials": [
+        "pricing product pack.png",
+        "interactive pricing card.png",
+        "discount card.png",
+         "subscription page.png"
+      ],
+      "zipContents": "Discount product card\nInteractive pricing page\nSubscription plan page\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Interactive and stylish pricing & product cards for web apps.",
+      "useCases": "E-commerce websites / Sass pricing pages / product showcases lanading pages",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Search-box-and-navigation-pack",
+      "name": "Search box & navigation pack",
+      "tagline": "Clean and responsive ",
+      "description": "search boxes and navigation menues.",
+      "price": "$15",
+      "mainImage": "search bar navigation pack.png",
+      "testimonials": [
+        "search bar navigation pack.png",
+        "seachbox1.png",
+        "searchbox2.png",
+        "search box3.png",
+        "modern buttom navigation..png",
+        "simple buttom navigation.png"
+      ],
+      "zipContents": "Click expand search box\nHover expand search box\nModern button navigation\nSimple button navigation\nSimple stylish search box\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "Enhance search boxes and navigation menues to improve UX.",
+      "useCases": "Web applications with search features / portfolio and SaaS sites / Dashborade navigation",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "Notification-and-feedback-pack",
+      "name": "Notification & feedback pack",
+      "tagline": "Clean and responsive ",
+      "description": "Showing notification.",
+      "price": "$15",
+      "mainImage": "notificication pack.png",
+      "testimonials": [
+        "notificication pack.png",
+        "warning noti.png",
+        "succses noti.png",
+        "info noti.png",
+        "error noti.png",
+        "empty noti.png",
+        "delete noti.png"
+       ],
+      "zipContents": "Warning notification\nSuccess notification\nInfo notification\nError notification\nEmpty notification\nDelete notification\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A complete se of notifications to communicate with users effectively.",
+      "useCases": "Web applications / SaaS deshabordes / E-commerce platforms ",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
+    },
+    {
+      "id": "E-commerce-pack",
+      "name": "E-commerce pack",
+      "tagline": "Clean and responsive ",
+      "description": "A ready-to use e-commerce UI kit.",
+      "price": "$29",
+      "mainImage": "e-commerce pack.png",
+      "testimonials": [
+        "e-commerce pack.png",
+        "interactive pricing card.png",
+        "discount card.png",
+         "subscription page.png",
+        "modern product card.png",
+        "Simple prduct card.png"
+      ],
+      "zipContents": "Discount product card\nInteractive pricing page\nSubscription plan page\nModern product card\nSimple product\nassets\nLicense.pdf\nREADME.md",
+      "features": [
+        "⚡ Warning focused design",
+        "✏️ clear call to action support",
+        "📱 Mobile Responsive"
+      ],
+      "highlights": "A ready-to use e-commerce UI kit for product oages and checkout flows.",
+      "useCases": "Online stores / products showcases wesbites / e-commerce SaaS platforms ",
+      "technicalInfo": {
+        "version": "1.0",
+        "lastUpdate": "2026-01-27",
+        "technologies": "HTML5, CSS3, Javascript",
+        "fileSize": "1.2 MB"
+      },
+      "supportInfo": "If you need any help, contact me on Telegram"
     }
-  
-    
+
   ]
 }
