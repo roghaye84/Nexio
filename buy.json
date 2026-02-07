@@ -1,10 +1,10 @@
+
 {
   "products": [
     {
       "id": "landing-page",
       "name": "Landing page",
       "price": "$7",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "formLink": "https://forms.gle/tZ6ypn44qYTNu5Do7"
     },
 
@@ -20,7 +20,6 @@
       "name": "Light Portfolio",
       "code": "LP-002",
       "price": "$7",
-      "wallet": "TKxeFK6GVe65QRnMpVFkRMqRfzfnpDvofe",
       "paymentLink": "http://t.me/CryptoBot?start=IVE9QIiZrQll "
     },
     {
@@ -28,7 +27,8 @@
       "name": "Subscription Plan page",
       "code": "SPP-001",
       "price": "$8",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVjY3wmvKcLx "
+      "paymentLink":  "https://t.me/CryptoBot?start=IVjY3wmvKcLx ",
+      "demoLink": "https://youtu.be/Phi7DQEmipk?si=7XYZ1jUDFLBgx1xa "
     },
     {
       "id": "About-us-page",
@@ -73,21 +73,24 @@
       "name": "Hover expand search box",
       "code": "HESB-001",
       "price": "$2",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVd31bqQzwxt"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVd31bqQzwxt",
+      "demoLink": "https://youtu.be/D5875-p0JBc?si=y_tnwqoLJ3dYVLO3 "
     },
     {
       "id": "Searching-box2",
       "name": "Click expand search box",
       "code": "CESB-002",
       "price": "$2",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVmkSRuMcWgS"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVmkSRuMcWgS",
+      "demoLink": "https://youtu.be/KlfyfbMzBj8?si=8-daHCuF4Tvct7vm "
     },
     {
       "id": "Searching-box3",
       "name": "Simple stylish search box",
       "code": "SSSB-003",
       "price": "$2",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVcNKpB0l3yy"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVcNKpB0l3yy",
+      "demoLink": "https://youtu.be/q1_h5hjhJ6Q?si=y-1TQ7OV0fGCeYGB "
     },
     {
       "id": "Simple-Product-card",
@@ -95,14 +98,15 @@
       "code": "SPC-001",
       "price": "$7",
       "paymentLink":  "https://t.me/CryptoBot?start=IV7sMEh2CFkC",
-      "demoLink": "https://youtu.be/1NTMNpUYIoY?si=xmR1w3jLaoYcBpdn "
+      "demoLink": "https://youtu.be/1NTMNpUYIoY?si=02sKzDJZYeQogH8o "
     },
     {
       "id": "Discount-Product-card",
       "name": "Discount Product card",
       "code": "DPC-002",
       "price": "$8",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVriKDpmOatO"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVriKDpmOatO",
+      "demoLink": "https://youtu.be/JQatYog4Sx0?si=B5Yc5cjxU16Tpq5o"
     },
     {
       "id": "Modern-Product-card",
@@ -110,14 +114,15 @@
       "code": "MPC-003",
       "price": "$9",
       "paymentLink":  "https://t.me/CryptoBot?start=IVd7kWfodQJ5",
-      "demoLink": "https://youtu.be/dR9tvwoKRj4?si=gCLLo34gNN5_QcPD"
+      "demoLink": "https://youtu.be/dR9tvwoKRj4?si=GaSZ2Qba5u4T7gXMD"
     },
     {
       "id": "interactive-pricing-card",
       "name": "interactive pricing card",
       "code": "IPC-002",
       "price": "$5",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVJXuhnr6grO"
+      "paymentLink":  "https://t.me/CryptoBot?start=IVJXuhnr6grO",
+      "demoLink": "https://youtu.be/Phi7DQEmipk?si=7XYZ1jUDFLBgx1xa"
     },
     {
       "id": "simple-buttom-navigation",
@@ -187,41 +192,104 @@
       "name": "Delete notification",
       "code": "DN-001",
       "price": "$5",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVzNryumtVgN"
     },
      {
       "id": "Empty-notification",
       "name": "Empty notification",
       "code": "EN-002",
       "price": "$5",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVxiTYh6qK0N"
     },
      {
       "id": "Error-notification",
       "name": "Error notification",
       "code": "EN-003",
       "price": "$5",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IV31SRoDDcpY"
     },
      {
       "id": "Info-notification",
       "name": "Info notification",
       "code": "IN-004",
       "price": "$5",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVA5a5hCNDqN"
     },
      {
       "id": "Success-notification",
       "name": "Success notification",
       "code": "SN-005",
       "price": "$5",
-      "paymentLink": "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink": "http://t.me/CryptoBot?start=IV1lCW8IChnb"
     },
     {
       "id": "Warning-notification",
       "name": "Warning notification",
       "code": "WN-006",
       "price": "$5",
+      "paymentLink":  "http://t.me/CryptoBot?start=IVGGXIzlbtbz"
+    },
+    {
+      "id": "Buttons-pack",
+      "name": "Buttons pack",
+      "code": "BP-001",
+      "price": "$8",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+    {
+      "id": "Front-End-Stearter-pack",
+      "name": "Front-End Stearter pack",
+      "code": "BP-001",
+      "price": "$48",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+     {
+      "id": "Website-pack",
+      "name": "Website pack",
+      "code": "WP-001",
+      "price": "$19",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+     {
+      "id": "Loading-pack",
+      "name": "Loading pack",
+      "code": "LP-001",
+      "price": "$10",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+     {
+      "id": "Pricing-pack",
+      "name": "Pricing pack",
+      "code": "PP-001",
+      "price": "$22",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+     {
+      "id": "Auth-pack",
+      "name": "Auth pack",
+      "code": "AP-001",
+      "price": "$12",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+    {
+      "id": "Search-box-and-navigation-pack",
+      "name": "Search box & navigation pack",
+      "code": "SBNP-001",
+      "price": "$15",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+   {
+      "id": "Notification-and-feedback-pack",
+      "name": "Notification & feedback pack",
+      "code": "NFP-001",
+      "price": "$15",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+    },
+    {
+      "id": "E-commerce-pack",
+      "name": "E-commerce pack",
+      "code": "NFP-001",
+      "price": "$29",
       "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
     }
   ]
