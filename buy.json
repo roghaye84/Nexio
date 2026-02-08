@@ -238,8 +238,8 @@
     },
     {
       "id": "Front-End-Stearter-pack",
-      "name": "Front-End Stearter pack",
-      "code": "BP-001",
+      "name": "Front-End Starter pack",
+      "code": "FESP-001",
       "price": "$48",
       "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
     },
@@ -288,7 +288,7 @@
     {
       "id": "E-commerce-pack",
       "name": "E-commerce pack",
-      "code": "NFP-001",
+      "code": "ECP-001",
       "price": "$29",
       "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
     }
