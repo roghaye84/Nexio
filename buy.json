@@ -233,64 +233,64 @@
       "id": "Buttons-pack",
       "name": "Buttons pack",
       "code": "BP-001",
-      "price": "$8",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "price": "$6",
+      "paymentLink":  "https://t.me/CryptoBot?start=IVT5SCIfdcXM"
     },
     {
       "id": "Front-End-Stearter-pack",
       "name": "Front-End Starter pack",
       "code": "FESP-001",
       "price": "$48",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVDJ5jT22ubC"
     },
      {
       "id": "Website-pack",
       "name": "Website pack",
       "code": "WP-001",
       "price": "$19",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVvNlK4hhAvB"
     },
      {
       "id": "Loading-pack",
       "name": "Loading pack",
       "code": "LP-001",
       "price": "$10",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVAdHFVyLqlr"
     },
      {
       "id": "Pricing-pack",
       "name": "Pricing pack",
       "code": "PP-001",
       "price": "$22",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVMcDFcOBln8"
     },
      {
       "id": "Auth-pack",
       "name": "Auth pack",
       "code": "AP-001",
       "price": "$12",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVD5e3gHOPl5"
     },
     {
       "id": "Search-box-and-navigation-pack",
       "name": "Search box & navigation pack",
       "code": "SBNP-001",
       "price": "$15",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVAXcUxDlrGQ"
     },
    {
       "id": "Notification-and-feedback-pack",
       "name": "Notification & feedback pack",
       "code": "NFP-001",
       "price": "$15",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IV38sLUnxXdv"
     },
     {
       "id": "E-commerce-pack",
       "name": "E-commerce pack",
       "code": "ECP-001",
       "price": "$29",
-      "paymentLink":  "https://t.me/CryptoBot?start=IVBRRnxgpKW3"
+      "paymentLink":  "http://t.me/CryptoBot?start=IVroOPXEDPjK"
     }
   ]
 }
