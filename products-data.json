@@ -459,7 +459,7 @@
 
      {
       "id": "interactive-pricing-card",
-      "name": "interactive pricing card",
+      "name": "Interactive pricing card",
       "tagline": "Clean, responsive & feature-rich",
       "description": "A responsive interactive pricing card.",
       "price": "$5",
@@ -488,7 +488,7 @@
 
      {
       "id": "simple-buttom-navigation",
-      "name": "simple buttom navigation",
+      "name": "Simple buttom navigation",
       "tagline": "Clean, responsive & feature-rich",
       "description": "A simple bottom navigation.",
       "price": "$3",
@@ -517,7 +517,7 @@
 
     {
       "id": "modern-buttom-navigation",
-      "name": "modern buttom navigation",
+      "name": "Modern buttom navigation",
       "tagline": "Clean, responsive & feature-rich",
       "description": "A modern bottom navigation.",
       "price": "$4",
