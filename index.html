@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexio</title>
+  <title>Nexio – Code store</title>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -22,38 +22,43 @@
 </head>
 <body>
   <div class="contianer">
-  <nav>
-  <!-- لوگو -->
-  <div class="logo">Nexio</div>
+    <nav>
+      <!-- لوگو -->
+      <div class="logo">Nexio</div>
 
-  <!-- آیکون منو موبایل -->
-  <span class="menu-toggle material-symbols-outlined">
-    <span class="icon-text">menu</span>
-  </span>
+      <!-- آیکون منو موبایل -->
+      <span class="menu-toggle material-symbols-outlined">
+        <span class="icon-text">menu</span>
+      </span>
 
-  <!-- منوی دسکتاپ -->
-  <ul class="main-menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+      <!-- منوی دسکتاپ -->
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
-  <!-- منوی کناری موبایل -->
-  <ul class="sidebar">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+      <!-- منوی کناری موبایل -->
+      <ul class="sidebar">
+        <!-- دکمه ضربدر بالا گوشه -->
+        <li class="close-menu-item">
+          <button class="close-btn material-symbols-outlined">close</button>
+        </li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
     <!-- Hero Section -->
     <div class="the-homepage">
       <div class="text-header">
         <h1 class="text">Vanilla Front-End<br /> Ready-to-Use</h1>
         <h5 class="under-text">
-          Pre-built login pages, buttons, template , and moudles to save you 2-3 hours of work. launch fatser and focus on what really matters.
+          Framework-free UI components built with pure HTML, CSS, JS. Pre-built login pages, buttons, template , and moudles to save you 2-3 hours of work. launch fatser and focus on what really matters.Perfect for beginner developers, tight deadlines, and porjects that requier no framework.
         </h5>
         <button class="btn-view" onclick="window.location.href='products.html'">
           View Products <span class="material-symbols-outlined">arrow_forward</span>
@@ -85,22 +90,22 @@
 
     <!-- What We Offer -->
     <section class="offer-section">
-      <h2>What We Offer</h2>
+      <h2>What Nexio?</h2>
       <div class="offer-cards">
         <div class="offer-card">
-          <div class="icon"><i class="fa-solid fa-gear"></i></div>
-          <h3>Customization</h3>
-          <p>Easily customizable to fit your brand and needs.</p>
+          <div class="icon"><i class="fa-solid fa-link-slash"></i></div>
+          <h3>Framework-Free</h3>
+          <p>Ready-to-use frontend components. No framework requiered.</p>
         </div>
         <div class="offer-card">
-          <div class="icon"><i class="fa-solid fa-bolt"></i></div>
-          <h3>Efficiency</h3>
-          <p>Save hours of development with ready-made tools.</p>
+          <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+          <h3>Beginner-Friendly</h3>
+          <p>Design for anyone who wants clean,understandable code without complexity.</p>
         </div>
         <div class="offer-card">
-          <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
-          <h3>Support</h3>
-          <p>Dedicated support for all our premium products.</p>
+          <div class="icon"><i class="fa-solid fa-stopwatch"></i></div>
+          <h3>Fast & Practical</h3>
+          <p>Save hours on development with lightweight components for projects with tight deadlines.</p>
         </div>
       </div>
     </section>
@@ -175,8 +180,8 @@
 <section class="free-pack-section">
   <div class="free-pack-wrapper">
     <h2>Get a Free Starter Pack!</h2>
-    <p>Try our premium components and templates for free. See how our designs can boost your projects instantly.</p>
-    <button class="btn-free-pack" onclick="window.location.href='deatails-free-pack.html?id=Free-pack'">
+    <p>Try our framework-free components and templates for free.Perfect for beginner developers or anyone who wnats to build fast,clean and lightweight UIs.</p>
+    <button class="btn-free-pack"  onclick="window.location.href='deatails-free-pack.html?id=Free-pack'">
       Download Free Pack
     </button>
   </div>
@@ -184,7 +189,7 @@
 
 
     <!-- Stats Section -->
-   <section class="stats-section">
+    <section class="stats-section">
       <div class="stat-item">
         <div class="stat-icon"><i class="fa-solid fa-box"></i></div>
         <div class="stat-number">30+</div>
@@ -209,9 +214,9 @@
 
     <!-- Call to Action Section -->
     <section class="cta-section">
-      <h2>Want to save time on your next project?</h2>
-      <p>High-quality front-end templates and components designed to help you build faster with clean, lightweight code.</p>
-      <button class="btn-cta" onclick="window.location.href='products.html'">Explore All Products</a></button>
+      <h2>Build faster without framework</h2>
+      <p>Use clean, lightweight frontend components built with pure HTML,CSS  and JS.</p>
+      <button class="btn-cta" onclick="window.location.href='products.html'">Explore All Components</a></button>
     </section>
   </div>
 
