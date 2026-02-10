@@ -118,7 +118,7 @@
     },
     {
       "id": "interactive-pricing-card",
-      "name": "interactive pricing card",
+      "name": "Interactive pricing card",
       "code": "IPC-002",
       "price": "$5",
       "paymentLink":  "https://t.me/CryptoBot?start=IVJXuhnr6grO",
@@ -126,14 +126,14 @@
     },
     {
       "id": "simple-buttom-navigation",
-      "name": "simple bottom navigation",
+      "name": "Simple bottom navigation",
       "code": "SBN-001",
       "price": "$3",
       "paymentLink":  "https://t.me/CryptoBot?start=IVhJz5iEbEFp"
     },
     {
       "id": "modern-buttom-navigation",
-      "name": "modern bottom navigation",
+      "name": "Modern bottom navigation",
       "code": "MBN-002",
       "price": "$4",
       "paymentLink":  "https://t.me/CryptoBot?start=IV2aKZFz5p1e"
